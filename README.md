@@ -187,8 +187,8 @@ kc-digital-expert/
 ### Phase 1: Foundation & Setup
 
 - [x] Next.js Projekt initialisieren
-- [ ] Ordnerstruktur anlegen
-- [ ] Dependencies installieren
+- [x] Ordnerstruktur anlegen
+- [x] Dependencies installieren
 - [ ] Tailwind + shadcn/ui konfigurieren
 - [ ] Git Repository setup mit Semantic Versioning
 - [ ] GitHub Actions für CI/CD vorbereiten
