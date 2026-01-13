@@ -2,12 +2,12 @@
 
 import { createContext, useContext, useEffect, useState } from 'react'
 
-type Theme = 'light' | 'dark' | 'system';
+type Theme = 'light' | 'dark' | 'system'
 
 interface ThemeContextValue {
-  theme: Theme;
-  resolvedTheme: 'light' | 'dark';
-  setTheme: (theme: Theme) => void;
+  theme: Theme
+  resolvedTheme: 'light' | 'dark'
+  setTheme: (theme: Theme) => void
 }
 
 const ThemeContext = createContext<ThemeContextValue | null>(null)
@@ -31,16 +31,17 @@ function getSystemTheme(): 'light' | 'dark' {
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [theme, setTheme] = useState<Theme>(() => getStoredTheme() ?? 'system')
-  const [resolvedTheme, setResolvedTheme] = useState<'light' | 'dark'>(() => {
+  const [systemTheme, setSystemTheme] = useState<'light' | 'dark'>(() => {
     if (typeof window === 'undefined') return 'light'
     return getSystemTheme()
   })
+  const resolvedTheme = theme === 'system' ? systemTheme : theme
 
   useEffect(() => {
     if (typeof window === 'undefined') return
     const media = window.matchMedia('(prefers-color-scheme: dark)')
     const handleChange = () => {
-      setResolvedTheme(media.matches ? 'dark' : 'light')
+      setSystemTheme(media.matches ? 'dark' : 'light')
     }
 
     handleChange()
@@ -57,10 +58,6 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     root.classList.remove('light', 'dark')
     root.classList.add(activeTheme)
     root.style.colorScheme = activeTheme
-
-    if (theme !== 'system') {
-      setResolvedTheme(theme)
-    }
 
     try {
       localStorage.setItem(THEME_STORAGE_KEY, theme)
