@@ -1,0 +1,54 @@
+# .github/workflows/release-please.yml
+#
+# Diese GitHub Action automatisiert das Versioning und Release-Management:
+# 1. Analysiert alle Commits seit dem letzten Release
+# 2. Erstellt automatisch einen Pull Request mit:
+#    - Aktualisierter package.json Version
+#    - Generiertem CHANGELOG.md
+# 3. Wenn du den PR mergst:
+#    - Erstellt automatisch ein GitHub Release
+#    - Erstellt einen Git Tag
+#
+# Commit-Typen und ihr Effekt auf die Version:
+# - feat:     Neues Feature         → MINOR Version (0.1.0 → 0.2.0)
+# - fix:      Bugfix                → PATCH Version (0.1.0 → 0.1.1)
+# - BREAKING CHANGE: Breaking Change → MAJOR Version (0.1.0 → 1.0.0)
+# - chore:    Keine Version-Änderung, aber im Changelog
+# - docs:     Keine Version-Änderung, aber im Changelog
+# - style:    Keine Version-Änderung, nicht im Changelog
+# - refactor: Keine Version-Änderung, aber im Changelog
+# - perf:     Performance → PATCH Version
+# - test:     Keine Version-Änderung, nicht im Changelog
+
+name: Release Please
+
+# Trigger: Läuft bei jedem Push auf main
+on:
+  push:
+    branches:
+      - main
+
+# Permissions für GitHub Token
+permissions:
+  contents: write        # Erlaubt das Erstellen von Releases und Tags
+  pull-requests: write   # Erlaubt das Erstellen/Updaten von PRs
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Release Please Action von Google
+      - uses: google-github-actions/release-please-action@v4
+        with:
+          # Typ des Projekts (node = package.json basiert)
+          release-type: node
+          
+          # GitHub Token (automatisch verfügbar, keine Config nötig)
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+          # Optional: Package Name (für Monorepos)
+          # package-name: kc-digital-expert
+          
+          # Optional: Custom Changelog Sections
+          # changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"chore","section":"Miscellaneous","hidden":false},{"type":"docs","section":"Documentation","hidden":false}]'
