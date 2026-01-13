@@ -30,7 +30,7 @@ function getSystemTheme(): 'light' | 'dark' {
 }
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setTheme] = useState<Theme>(() => getStoredTheme() ?? 'system')
+  const [theme, setTheme] = useState<Theme>('system')
   const [systemTheme, setSystemTheme] = useState<'light' | 'dark'>(() => {
     if (typeof window === 'undefined') return 'light'
     return getSystemTheme()
@@ -39,6 +39,9 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     if (typeof window === 'undefined') return
+    const stored = getStoredTheme()
+    if (stored) setTheme(stored)
+
     const media = window.matchMedia('(prefers-color-scheme: dark)')
     const handleChange = () => {
       setSystemTheme(media.matches ? 'dark' : 'light')
