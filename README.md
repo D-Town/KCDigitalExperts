@@ -1,7 +1,6 @@
 # KC Digital Expert - Content Creator Platform
 
 ## 🎯 Projektziel
-
 Eine sichere, mehrsprachige Next.js-Plattform für automatisierte Content-Erstellung mit n8n-Integration, Supabase-Backend und Mitgliederbereich.
 
 ---
@@ -27,7 +26,6 @@ npx shadcn@latest init
 ```
 
 **Bei shadcn/ui Setup wählen:**
-
 - Style: Default
 - Base color: Slate (oder deine Präferenz)
 - CSS variables: Yes
@@ -185,16 +183,14 @@ kc-digital-expert/
 ## ✅ TODO Liste / Features
 
 ### Phase 1: Foundation & Setup
-
-- [x] Next.js Projekt initialisieren
-- [x] Ordnerstruktur anlegen
-- [x] Dependencies installieren
+- [ ] Next.js Projekt initialisieren
+- [ ] Ordnerstruktur anlegen
+- [ ] Dependencies installieren
 - [ ] Tailwind + shadcn/ui konfigurieren
 - [ ] Git Repository setup mit Semantic Versioning
 - [ ] GitHub Actions für CI/CD vorbereiten
 
 ### Phase 2: Supabase Setup
-
 - [ ] Supabase Projekt erstellen
 - [ ] Environment Variables konfigurieren
 - [ ] Datenbank Schema entwerfen
@@ -207,7 +203,6 @@ kc-digital-expert/
 - [ ] Supabase Client Setup (client.ts & server.ts)
 
 ### Phase 3: Authentifizierung & Sicherheit
-
 - [ ] Middleware für Auth implementieren
 - [ ] Login-Seite erstellen
 - [ ] Registrierungs-Seite erstellen
@@ -219,7 +214,6 @@ kc-digital-expert/
 - [ ] CSRF Protection
 
 ### Phase 4: Internationalisierung (i18n)
-
 - [ ] next-intl konfigurieren
 - [ ] Middleware für i18n erweitern
 - [ ] Deutsche Übersetzungen (de.json)
@@ -228,7 +222,6 @@ kc-digital-expert/
 - [ ] Locale-basiertes Routing
 
 ### Phase 5: Marketing/Landing Page
-
 - [ ] Layout für Marketing-Bereich
 - [ ] Landing Page (Hero, Features, CTA)
 - [ ] Über Uns Seite
@@ -240,7 +233,6 @@ kc-digital-expert/
 - [ ] Responsive Design für alle Seiten
 
 ### Phase 6: Dashboard (Mitgliederbereich)
-
 - [ ] Dashboard Layout mit Sidebar
 - [ ] Dashboard Overview mit Statistiken
 - [ ] Content Generator UI
@@ -255,7 +247,6 @@ kc-digital-expert/
 - [ ] Mobile-optimierte Ansichten
 
 ### Phase 7: Profil & Einstellungen
-
 - [ ] Profil-Seite
   - [ ] Profilbild Upload
   - [ ] Benutzername ändern
@@ -268,7 +259,6 @@ kc-digital-expert/
 - [ ] Account Löschen Funktion
 
 ### Phase 8: API Key Management
-
 - [ ] API Keys Liste
 - [ ] API Key generieren
 - [ ] API Key anzeigen (einmalig)
@@ -276,7 +266,6 @@ kc-digital-expert/
 - [ ] API Key Permissions
 
 ### Phase 9: n8n Integration
-
 - [ ] n8n Webhook Endpoint
 - [ ] Workflow Trigger Funktion
 - [ ] Content-Generierung Flow
@@ -286,7 +275,6 @@ kc-digital-expert/
 - [ ] Webhook Security (API Key Validation)
 
 ### Phase 10: Statistiken & Analytics
-
 - [ ] Dashboard Statistiken
   - [ ] Gesamt generierter Content
   - [ ] Content pro Kanal
@@ -296,7 +284,6 @@ kc-digital-expert/
 - [ ] Export Funktionalität
 
 ### Phase 11: Testing & Sicherheit
-
 - [ ] Unit Tests (kritische Funktionen)
 - [ ] E2E Tests (User Flows)
 - [ ] Security Audit
@@ -309,7 +296,6 @@ kc-digital-expert/
 - [ ] Mobile Testing
 
 ### Phase 12: Deployment & DevOps
-
 - [ ] Vercel Deployment Setup
 - [ ] Environment Variables (Production)
 - [ ] Custom Domain Setup
@@ -319,7 +305,6 @@ kc-digital-expert/
 - [ ] Backup Strategy
 
 ### Phase 13: Nice-to-Have Features (später)
-
 - [ ] Dark Mode
 - [ ] Content Templates
 - [ ] Bulk Content Generation
@@ -329,70 +314,41 @@ kc-digital-expert/
 - [ ] API Dokumentation
 - [ ] Content Export (PDF, JSON)
 
-### Phase 14: Admin-Bereich (NEU!)
-
-- [ ] Admin Layout
-- [ ] User Management
-  - [ ] User Liste mit Suche
-  - [ ] User Details ansehen
-  - [ ] User sperren/entsperren
-  - [ ] User löschen
-  - [ ] Passwort zurücksetzen (Admin-initiated)
-- [ ] Content Moderation
-  - [ ] Alle User-Contents ansehen
-  - [ ] Content löschen/bearbeiten
-- [ ] Statistiken (Admin)
-  - [ ] Gesamt-User Anzahl
-  - [ ] Aktive User
-  - [ ] Content-Generierung Stats
-  - [ ] API Usage gesamt
-- [ ] System-Settings
-  - [ ] Feature Flags
-  - [ ] Rate Limits anpassen
-- [ ] Audit Log (wer hat was geändert)
-
 ---
 
 ## 🔐 Sicherheitskonzept
 
 ### 1. **Supabase Row Level Security (RLS)**
-
 - Jeder Datenbankzugriff wird auf User-Level geprüft
 - Policies definieren wer was lesen/schreiben darf
 - Server-seitige Validierung
 
 ### 2. **Next.js Middleware**
-
 - Prüft Auth-Status vor jedem Request
 - Schützt Dashboard-Routen
 - Redirect zu Login wenn nicht authentifiziert
 
 ### 3. **Server Components**
-
 - Sensitive Logik läuft nur auf dem Server
 - API Keys werden nie ans Frontend geschickt
 - Datenbank-Queries nur server-seitig
 
 ### 4. **Environment Variables**
-
 - Secrets niemals im Code
 - `.env.local` für lokale Entwicklung
 - Vercel Environment Variables für Production
 
 ### 5. **Input Validation**
-
 - Zod Schemas für alle Forms
 - Server-seitige Validation zusätzlich
 - Sanitization von User Input
 
 ### 6. **Rate Limiting**
-
 - API Routes haben Request Limits
 - Schutz vor Brute Force
 - Per User/IP Limitierung
 
 ### 7. **CSRF Protection**
-
 - Supabase übernimmt CSRF Tokens
 - Custom Headers für API Requests
 
@@ -468,7 +424,6 @@ Wir nutzen [Conventional Commits](https://www.conventionalcommits.org/):
 ```
 
 **Types:**
-
 - `feat`: Neues Feature (MINOR Version)
 - `fix`: Bugfix (PATCH Version)
 - `docs`: Dokumentation
@@ -481,7 +436,6 @@ Wir nutzen [Conventional Commits](https://www.conventionalcommits.org/):
 - `BREAKING CHANGE`: Breaking Change (MAJOR Version)
 
 **Beispiele:**
-
 ```bash
 git commit -m "feat(auth): add login functionality"
 git commit -m "fix(dashboard): resolve content display bug"
@@ -492,16 +446,15 @@ git commit -m "chore(deps): update next.js to v15"
 ### GitHub Setup
 
 1. **Repository erstellen** (bereits erledigt)
-1. **Branch Protection Rules** (auf GitHub):
 
-- Settings → Branches → Add rule
-- Branch name pattern: `main`
-- ✅ Require pull request reviews before merging
-- ✅ Require status checks to pass before merging
-- ✅ Require branches to be up to date
+2. **Branch Protection Rules** (auf GitHub):
+   - Settings → Branches → Add rule
+   - Branch name pattern: `main`
+   - ✅ Require pull request reviews before merging
+   - ✅ Require status checks to pass before merging
+   - ✅ Require branches to be up to date
 
-1. **GitHub Actions** (später):
-
+3. **GitHub Actions** (später):
    ```yaml
    # .github/workflows/ci.yml
    name: CI
@@ -520,49 +473,43 @@ git commit -m "chore(deps): update next.js to v15"
 ### Versioning Workflow
 
 **Für jedes neue Feature:**
-
 1. Feature Branch erstellen: `git checkout -b feature/i18n`
-1. Feature entwickeln
-1. Commits mit `feat:` prefix
-1. Pull Request zu `develop`
-1. Merge nach Review
+2. Feature entwickeln
+3. Commits mit `feat:` prefix
+4. Pull Request zu `develop`
+5. Merge nach Review
 
 **Für einen Release:**
-
 1. Release Branch: `git checkout -b release/0.2.0`
-1. Version bumpen: `npm version minor` (erstellt automatisch Tag)
-1. In `main` mergen
-1. Tag pushen: `git push --tags`
-1. GitHub Release erstellen mit Changelog
+2. Version bumpen: `npm version minor` (erstellt automatisch Tag)
+3. In `main` mergen
+4. Tag pushen: `git push --tags`
+5. GitHub Release erstellen mit Changelog
 
 **Für Hotfixes:**
-
 1. Hotfix Branch von `main`: `git checkout -b hotfix/critical-bug`
-1. Fix implementieren
-1. In `main` UND `develop` mergen
-1. Patch Version: `npm version patch`
+2. Fix implementieren
+3. In `main` UND `develop` mergen
+4. Patch Version: `npm version patch`
 
 ---
 
 ## 🚀 Next Steps
 
 1. **Jetzt sofort:**
+   - Dependencies installieren
+   - Ordnerstruktur anlegen
+   - Git Setup mit Semantic Versioning
 
-- Dependencies installieren
-- Ordnerstruktur anlegen
-- Git Setup mit Semantic Versioning
+2. **Als nächstes:**
+   - Supabase Projekt anlegen
+   - Environment Variables konfigurieren
+   - Middleware für Auth + i18n
 
-1. **Als nächstes:**
-
-- Supabase Projekt anlegen
-- Environment Variables konfigurieren
-- Middleware für Auth + i18n
-
-1. **Dann:**
-
-- Erste UI Komponenten (shadcn/ui)
-- Landing Page Grundgerüst
-- Login/Register Forms
+3. **Dann:**
+   - Erste UI Komponenten (shadcn/ui)
+   - Landing Page Grundgerüst
+   - Login/Register Forms
 
 ---
 
@@ -598,4 +545,4 @@ NEXT_PUBLIC_SITE_URL=http://localhost:3000
 
 ---
 
-**Let’s build something awesome! 🚀**
+**Let's build something awesome! 🚀**
