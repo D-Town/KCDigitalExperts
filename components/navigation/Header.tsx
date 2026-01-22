@@ -20,15 +20,24 @@ export const Header = () => {
             href="/"
             className="group flex items-center gap-3 text-2xl sm:text-3xl font-semibold tracking-tight no-underline"
           >
-            <span className="rounded-full bg-primary/10 px-3 py-1 text-primary">
-              Deine
+            <span className="logo-placeholder" aria-hidden="true">
+              Bild
             </span>
-            <span className="text-text-heading">Marke</span>
+            <span className="text-text-heading">KC Digital Experts</span>
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-6">
-            <a href="/produkte" className="nav-link">Produkte</a>
+            <details className="relative">
+              <summary className="nav-link list-none cursor-pointer select-none">
+                Produkte
+              </summary>
+              <div className="nav-dropdown">
+                <a href="/produkte/mrr" className="nav-link">MRR-Produkte</a>
+                <a href="/produkte/affiliate" className="nav-link">Affiliate-Produkte</a>
+                <a href="/produkte/sonstige" className="nav-link">Sonstige</a>
+              </div>
+            </details>
             <a href="/ueber-uns" className="nav-link">Über uns</a>
             <a href="/kontakt" className="nav-link">Kontakt</a>
             <ThemeToggle />
@@ -56,7 +65,16 @@ export const Header = () => {
         {/* Mobile Menu */}
         {mobileMenuOpen && (
           <div id="mobile-menu" className="md:hidden pb-6 pt-2 space-y-2" role="menu">
-            <a href="/produkte" className="nav-link block rounded-xl px-3 py-2" role="menuitem">Produkte</a>
+            <details className="mobile-submenu">
+              <summary className="nav-link block rounded-xl px-3 py-2 list-none cursor-pointer" role="menuitem">
+                Produkte
+              </summary>
+              <div className="space-y-1 px-3 pb-2">
+                <a href="/produkte/mrr" className="nav-link block rounded-lg px-3 py-2" role="menuitem">MRR-Produkte</a>
+                <a href="/produkte/affiliate" className="nav-link block rounded-lg px-3 py-2" role="menuitem">Affiliate-Produkte</a>
+                <a href="/produkte/sonstige" className="nav-link block rounded-lg px-3 py-2" role="menuitem">Sonstige</a>
+              </div>
+            </details>
             <a href="/ueber-uns" className="nav-link block rounded-xl px-3 py-2" role="menuitem">Über uns</a>
             <a href="/kontakt" className="nav-link block rounded-xl px-3 py-2" role="menuitem">Kontakt</a>
             <a href="/login" className="btn-primary w-full mt-3" role="menuitem">Anmelden</a>

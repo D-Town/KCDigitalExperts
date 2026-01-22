@@ -217,6 +217,45 @@
     color: var(--color-primary);
   }
 
+  .logo-placeholder {
+    align-items: center;
+    border: 2px dashed color-mix(in srgb, var(--color-primary) 45%, transparent);
+    border-radius: 999px;
+    color: var(--color-primary);
+    display: inline-flex;
+    font-size: 0.85rem;
+    font-weight: 600;
+    height: 2.4rem;
+    justify-content: center;
+    text-transform: uppercase;
+    width: 2.4rem;
+  }
+
+  .nav-dropdown {
+    background: var(--color-surface);
+    border: 1px solid color-mix(in srgb, var(--color-border) 70%, transparent);
+    border-radius: 0.9rem;
+    box-shadow: var(--shadow-soft);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    left: 0;
+    min-width: 12rem;
+    padding: 0.85rem 1rem;
+    position: absolute;
+    top: 100%;
+    transform: translateY(0.65rem);
+    z-index: 60;
+  }
+
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+
+  details > summary::marker {
+    content: "";
+  }
+
   .btn-primary {
     align-items: center;
     background: var(--color-primary);
