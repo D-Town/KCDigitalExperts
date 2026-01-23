@@ -3,15 +3,17 @@ import { useState } from "react";
 import ThemeToggle from "../theme-toggle";
 import Link from "next/link";
 import LanguageSwitcher from "../LanguageSwitcher";
+import { useTranslations } from "next-intl";
 
 export const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const t = useTranslations('Header');
 
   return (
     <header className="header" role="banner">
       {/* Skip to Main Content Link für Barrierefreiheit */}
       <a href="#main-content" className="skip-link">
-        Zum Hauptinhalt springen
+        {t("skipToContent")}
       </a>
 
       <nav className="container-custom" aria-label="Hauptnavigation">
@@ -31,19 +33,19 @@ export const Header = () => {
           <div className="hidden md:flex items-center gap-6">
             <details className="relative">
               <summary className="nav-link list-none cursor-pointer select-none">
-                Produkte
+                {t("nav.products")}
               </summary>
               <div className="nav-dropdown">
-                <a href="/produkte/mrr" className="nav-link">MRR-Produkte</a>
-                <a href="/produkte/affiliate" className="nav-link">Affiliate-Produkte</a>
-                <a href="/produkte/sonstige" className="nav-link">Sonstige</a>
+                <a href="/produkte/mrr" className="nav-link">{t("nav.productItems.mrr")}</a>
+                <a href="/produkte/affiliate" className="nav-link">{t("nav.productItems.affiliate")}</a>
+                <a href="/produkte/sonstige" className="nav-link">{t("nav.productItems.other")}</a>
               </div>
             </details>
-            <a href="/ueber-uns" className="nav-link">Über uns</a>
-            <a href="/kontakt" className="nav-link">Kontakt</a>
+            <a href="/ueber-uns" className="nav-link">{t("nav.about")}</a>
+            <a href="/kontakt" className="nav-link">{t("nav.contact")}</a>
             <ThemeToggle />
             <LanguageSwitcher />
-            <a href="/login" className="btn-primary">Anmelden</a>
+            <a href="/login" className="btn-primary">{t("nav.login")}</a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -69,17 +71,17 @@ export const Header = () => {
           <div id="mobile-menu" className="md:hidden pb-6 pt-2 space-y-2" role="menu">
             <details className="mobile-submenu">
               <summary className="nav-link block rounded-xl px-3 py-2 list-none cursor-pointer" role="menuitem">
-                Produkte
+                {t("nav.products")}
               </summary>
               <div className="space-y-1 px-3 pb-2">
-                <a href="/produkte/mrr" className="nav-link block rounded-lg px-3 py-2" role="menuitem">MRR-Produkte</a>
-                <a href="/produkte/affiliate" className="nav-link block rounded-lg px-3 py-2" role="menuitem">Affiliate-Produkte</a>
-                <a href="/produkte/sonstige" className="nav-link block rounded-lg px-3 py-2" role="menuitem">Sonstige</a>
+                <a href="/produkte/mrr" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.mrr")}</a>
+                <a href="/produkte/affiliate" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.affiliate")}</a>
+                <a href="/produkte/sonstige" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.other")}</a>
               </div>
             </details>
-            <a href="/ueber-uns" className="nav-link block rounded-xl px-3 py-2" role="menuitem">Über uns</a>
-            <a href="/kontakt" className="nav-link block rounded-xl px-3 py-2" role="menuitem">Kontakt</a>
-            <a href="/login" className="btn-primary w-full mt-3" role="menuitem">Anmelden</a>
+            <a href="/ueber-uns" className="nav-link block rounded-xl px-3 py-2" role="menuitem">{t("about")}</a>
+            <a href="/kontakt" className="nav-link block rounded-xl px-3 py-2" role="menuitem">{t("contact")}</a>
+            <a href="/login" className="btn-primary w-full mt-3" role="menuitem">{t("login")}</a>
           </div>
         )}
       </nav>
