@@ -328,6 +328,21 @@
   .dark-mode-transition {
     transition: background-color 200ms ease, color 200ms ease;
   }
+
+  .kc-wrap {
+    margin: 0 auto;
+    max-width: 75rem;
+    padding: 3rem 1rem;
+    width: 100%;
+  }
+
+  .kc-card {
+    background: var(--color-surface);
+    border: 1px solid color-mix(in srgb, var(--color-border) 80%, transparent);
+    border-radius: 1rem;
+    box-shadow: var(--shadow-soft);
+    padding: 1.5rem;
+  }
 }
 
 #main-content {
@@ -338,10 +353,22 @@
   .container-custom {
     padding: 0 1.5rem;
   }
+
+  .kc-wrap {
+    padding: 3rem 1.5rem;
+  }
 }
 
 @media (min-width: 1024px) {
   .container-custom {
     padding: 0 2rem;
+  }
+
+  .kc-wrap {
+    padding: 4rem 2rem;
+  }
+
+  .kc-card {
+    padding: 2rem;
   }
 }

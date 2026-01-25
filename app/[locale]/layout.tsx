@@ -53,13 +53,13 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body className={`${inter.variable} ${poppins.variable} antialiased`}>
         <NextIntlClientProvider messages={messages}>
-           <div className="flex flex-col min-h-screen dark-mode-transition">
-          <Header />
-          <main id="main-content" className="flex-1" role="main">
-            {children}
-          </main>
-          <Footer />
-        </div>
+          <div className="flex flex-col min-h-screen dark-mode-transition">
+            <Header />
+            <main id="main-content" className="flex-1" role="main">
+              {children}
+            </main>
+            <Footer />
+          </div>
         </NextIntlClientProvider>
       </body>
     </html>

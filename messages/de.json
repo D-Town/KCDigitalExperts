@@ -103,5 +103,30 @@
       "description": "Entdecke mit KC Digital Experts, wie du dein Online-Business erfolgreich aufbauen kannst. Unsere erprobten Strategien, leicht verständlichen Online-Kurse und persönliche Beratung unterstützen dich dabei."
     },
     "copyright": "© 2026 KC Digital Experts. Alle Rechte vorbehalten."
+  },
+  "Legal": {
+    "terms": {},
+    "privacy": {},
+    "imprint": {
+      "title": "Impressum",
+      "items": {
+        "adress": "Katja und Christian Ernst GbR<br></br>Ludwig-Erhard-Str. 18<br></br>c/o IP-Management #45145<br></br>20459 Hamburg",
+        "represented": "<strong>Vertreten durch:</strong><br></br>Katja Ernst<br></br>Christian Ernst",
+        "contact": {
+          "title": "Kontakt",
+          "description": "Telefon: +49 (0)211 17 80 13 15<br></br>E-Mail: <link>info@kcdigitalexperts.de</link>"
+        },
+        "tax": {
+          "title":"Umsatzsteuer-ID",
+          "description":"Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:<br></br>DE357657208"
+        },
+        "arbitration": {
+          "title":"Verbraucherstreitbeilegung / Universalschlichtungsstelle",
+          "description":"Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren<br></br>vor einer Verbraucherschlichtungsstelle teilzunehmen."
+        }
+      }
+    },
+    "withdrawal": {},
+    "accessibility": {}
   }
 }
