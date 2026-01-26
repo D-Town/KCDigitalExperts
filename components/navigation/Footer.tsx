@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export function Footer() {
   const t = useTranslations('Footer');
@@ -11,29 +12,29 @@ export function Footer() {
           <div>
             <h4 className="h6 mb-2">{t("quickLinks.title")}</h4>
             <ul className="space-y-1 text-body-sm">
-              <li><a href="/produkt-1">{t("quickLinks.items.home")}</a></li>
-              <li><a href="/produkt-2">{t("quickLinks.items.shop")}</a></li>
-              <li><a href="/produkt-3">{t("quickLinks.items.about")} uns</a></li>
-              <li><a href="/produkt-3">{t("quickLinks.items.contact")}</a></li>
+              <li><Link href="/produkt-1">{t("quickLinks.items.home")}</Link></li>
+              <li><Link href="/produkt-2">{t("quickLinks.items.shop")}</Link></li>
+              <li><Link href="/produkt-3">{t("quickLinks.items.about")} uns</Link></li>
+              <li><Link href="/produkt-3">{t("quickLinks.items.contact")}</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="h6 mb-2">{t("social.title")}</h4>
             <ul className="space-y-1 text-body-sm">
-              <li><a href="/ueber-uns">{t("social.items.facebook")}</a></li>
-              <li><a href="/karriere">{t("social.items.instagram")}</a></li>
+              <li><Link href="/ueber-uns">{t("social.items.facebook")}</Link></li>
+              <li><Link href="/karriere">{t("social.items.instagram")}</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="h6 mb-2">{t("legal.title")}</h4>
             <ul className="space-y-1 text-body-sm">
-              <li><a href="/agb">{t("legal.items.terms")}</a></li>
-              <li><a href="/datenschutz">{t("legal.items.privacy")}</a></li>
-              <li><a href="/impressum">{t("legal.items.imprint")}</a></li>
-              <li><a href="/wiederufsbelehrung">{t("legal.items.withdrawal")}</a></li>
-              <li><a href="/barriererefreiheit">{t("legal.items.accessibility")}</a></li>
+              <li><Link href="/terms">{t("legal.items.terms")}</Link></li>
+              <li><Link href="/privacy">{t("legal.items.privacy")}</Link></li>
+              <li><Link href="/imprint">{t("legal.items.imprint")}</Link></li>
+              <li><Link href="/withdrawl">{t("legal.items.withdrawal")}</Link></li>
+              <li><Link href="/accessibility">{t("legal.items.accessibility")}</Link></li>
             </ul>
           </div>
 
