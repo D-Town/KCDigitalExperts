@@ -109,21 +109,21 @@
       "title": "Allgemeine Geschäftsbedingungen (AGB)",
       "subtitle": "für digitale Produkte & digitale Dienstleistungen",
       "provider": {
-        "addressHtml": "Katja und Christian Ernst GbR<br/>c/o IP-Management #45145<br/>Ludwig-Erhard-Str. 18<br/>20459 Hamburg<br/>E-Mail: {{email}}<br/>(nachfolgend „Anbieter“)",
+        "addressHtml": "Katja und Christian Ernst GbR<br/>c/o IP-Management #45145<br/>Ludwig-Erhard-Str. 18<br/>20459 Hamburg<br/>E-Mail: {email}<br/>(nachfolgend „Anbieter“)",
         "email": "info@kcdigitalexperts.de"
       },
       "sections": {
         "scope": {
           "title": "1. Geltungsbereich",
           "p1": "(1) Digitale Inhalte werden nach erfolgreicher Zahlung entweder zum Download bereitgestellt oder über einen von uns betriebenen Online-Zugangsbereich (z. B. Mitgliederbereich oder vergleichbare Lösung) zugänglich gemacht.",
-          "p2": "(2) Die AGB gelten sowohl gegenüber <1>Verbrauchern</1> (§ 13 BGB) als auch gegenüber <2>Unternehmern</2> (§ 14 BGB). Einzelne Regelungen gelten ausdrücklich nur für Verbraucher oder nur für Unternehmer.",
+          "p2": "(2) Die AGB gelten sowohl gegenüber <strong>Verbrauchern</strong> (§ 13 BGB) als auch gegenüber <strong>Unternehmern</strong> (§ 14 BGB). Einzelne Regelungen gelten ausdrücklich nur für Verbraucher oder nur für Unternehmer.",
           "p3": "(3) Abweichende Bedingungen des Kunden gelten nicht, es sei denn, wir stimmen ihrer Geltung ausdrücklich in Textform zu."
         },
         "services": {
           "title": "2. Leistungen & Leistungsbeschreibung",
           "p1": "(1) Wir bieten digitale Produkte sowie digitale Bildungs- und Informationsleistungen an – insbesondere rund um Online-Business, digitales Marketing, Content-Erstellung sowie Tools/Automatisierung (z. B. Kurse, Videos, Workbooks, Vorlagen, Anleitungen, Mitgliederbereiche).",
           "p2": "(2) Welche Inhalte du genau bekommst (Umfang, Voraussetzungen, ggf. Laufzeit), ergibt sich aus der jeweiligen Leistungsbeschreibung auf der Verkaufsseite bzw. im Checkout.",
-          "p3": "(3) Wir schulden die Bereitstellung der beschriebenen Inhalte/Leistungen – <1>nicht</1> jedoch einen bestimmten wirtschaftlichen oder geschäftlichen Erfolg (z. B. Umsatz, Reichweite, Kundengewinn)."
+          "p3": "(3) Wir schulden die Bereitstellung der beschriebenen Inhalte/Leistungen – <strong>nicht</strong> jedoch einen bestimmten wirtschaftlichen oder geschäftlichen Erfolg (z. B. Umsatz, Reichweite, Kundengewinn)."
         },
         "contract": {
           "title": "3. Vertragsschluss",
@@ -144,7 +144,7 @@
         },
         "rights": {
           "title": "6. Nutzungsrechte, Weitergabe & Account-Sharing",
-          "p1": "(1) Sofern nicht anders angegeben, erhältst du ein <1>einfaches, nicht übertragbares und nicht unterlizenzierbares</1> Nutzungsrecht. Dieses gilt für die Vertragslaufzeit bzw. bei Einmalkauf zeitlich unbeschränkt – ausschließlich für eigene Zwecke.",
+          "p1": "(1) Sofern nicht anders angegeben, erhältst du ein <strong>einfaches, nicht übertragbares und nicht unterlizenzierbares</strong> Nutzungsrecht. Dieses gilt für die Vertragslaufzeit bzw. bei Einmalkauf zeitlich unbeschränkt – ausschließlich für eigene Zwecke.",
           "p2": "(2) Insbesondere ist Folgendes untersagt:",
           "bullets": [
             "Weitergabe, Verkauf, Vermietung, Verleih oder öffentliche Zugänglichmachung der Inhalte,",
@@ -161,13 +161,13 @@
         },
         "updates": {
           "title": "7. Updates & Weiterentwicklung",
-          "p1": "(1) Sofern nicht ausdrücklich zugesagt, besteht <1>kein Anspruch</1> auf Updates, Upgrades, neue Versionen oder inhaltliche Weiterentwicklungen.",
+          "p1": "(1) Sofern nicht ausdrücklich zugesagt, besteht <strong>kein Anspruch</strong> auf Updates, Upgrades, neue Versionen oder inhaltliche Weiterentwicklungen.",
           "p2": "(2) Wir dürfen Inhalte aus sachlichen Gründen anpassen (z. B. Aktualisierung, technische Umstellungen), sofern der Gesamtcharakter der Leistung erhalten bleibt und die Änderung für dich zumutbar ist."
         },
         "withdrawal": {
           "title": "8. Widerrufsrecht für Verbraucher (digitale Inhalte)",
           "p1": "(1) Verbrauchern steht grundsätzlich ein Widerrufsrecht zu. Die Widerrufsbelehrung und das Muster-Widerrufsformular stellen wir gesondert zur Verfügung.",
-          "p2": "(2) <1>Erlöschen des Widerrufsrechts bei digitalen Inhalten:</1> Das Widerrufsrecht erlischt bei einem Vertrag über digitale Inhalte, die nicht auf einem körperlichen Datenträger geliefert werden, wenn wir mit der Ausführung des Vertrags begonnen haben, nachdem du als Verbraucher",
+          "p2": "(2) <strong>Erlöschen des Widerrufsrechts bei digitalen Inhalten:</strong> Das Widerrufsrecht erlischt bei einem Vertrag über digitale Inhalte, die nicht auf einem körperlichen Datenträger geliefert werden, wenn wir mit der Ausführung des Vertrags begonnen haben, nachdem du als Verbraucher",
           "bullets": [
             "ausdrücklich zugestimmt hast, dass wir vor Ablauf der Widerrufsfrist mit der Ausführung beginnen, und",
             "deine Kenntnis bestätigt hast, dass du durch deine Zustimmung mit Beginn der Ausführung dein Widerrufsrecht verlierst."
@@ -208,7 +208,7 @@
         },
         "dispute": {
           "title": "15. Online-Streitbeilegung / Verbraucherschlichtung",
-          "p1": "Die EU-Kommission stellt eine Plattform zur Online-Streitbeilegung bereit: <1>{{odrUrl}}</1>",
+          "p1": "Die EU-Kommission stellt eine Plattform zur Online-Streitbeilegung bereit: <link>{odrUrl}</link>",
           "odrUrl": "https://ec.europa.eu/consumers/odr",
           "p2": "Wir sind weder verpflichtet noch bereit, an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
         }
@@ -227,7 +227,7 @@
             "title": "Datenerfassung auf dieser Website",
             "whoResponsible": {
               "title": "Wer ist für die Datenerfassung verantwortlich?",
-              "p1": "Die Verarbeitung deiner Daten erfolgt durch den Betreiber dieser Website. Die entsprechenden Kontaktdaten findest du im Abschnitt <1>„Hinweis zur verantwortlichen Stelle“</1> weiter unten."
+              "p1": "Die Verarbeitung deiner Daten erfolgt durch den Betreiber dieser Website. Die entsprechenden Kontaktdaten findest du im Abschnitt <em>„Hinweis zur verantwortlichen Stelle“</em> weiter unten."
             },
             "howWeCollect": {
               "title": "Wie erfassen wir deine Daten?",
@@ -249,7 +249,7 @@
           "title": "2. Hosting",
           "externalHosting": {
             "title": "Externes Hosting",
-            "providerAddress": "<1>Cloudflare, Inc.</1><br/>101 Townsend St.<br/>San Francisco, CA 94107<br/>USA",
+            "providerAddress": "<strong>Cloudflare, Inc.</strong><br/>101 Townsend St.<br/>San Francisco, CA 94107<br/>USA",
             "p1": "Cloudflare verarbeitet personenbezogene Daten (z. B. IP-Adressen, Logdaten, technische Zugriffsdaten), um die Website bereitzustellen, vor Angriffen zu schützen und eine stabile Auslieferung zu gewährleisten.",
             "p2": "Die Datenverarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer sicheren und effizienten Bereitstellung unseres Online-Angebots)."
           }
@@ -259,7 +259,7 @@
           "controllerNotice": {
             "title": "Hinweis zur verantwortlichen Stelle",
             "p1": "Verantwortlich für die Datenverarbeitung auf dieser Website ist:",
-            "address": "<1>Katja und Christian Ernst GbR</1><br/>c/o IP-Management #45145<br/>Ludwig-Erhard-Str. 18<br/>20459 Hamburg<br/><br/>Telefon: 0211 17801315<br/>E-Mail: info@kcdigitalexperts.de"
+            "address": "<strong>Katja und Christian Ernst GbR</strong><br/>c/o IP-Management #45145<br/>Ludwig-Erhard-Str. 18<br/>20459 Hamburg<br/><br/>Telefon: 0211 17801315<br/>E-Mail: info@kcdigitalexperts.de"
           },
           "retention": {
             "title": "Speicherdauer",
@@ -319,13 +319,14 @@
     },
     "withdrawal": {
       "title": "Widerrufsbelehrung",
+      "email": "info@kcdigitalexperts.de",
       "sections": {
         "withdrawalRight": {
           "title": "Widerrufsrecht für Verbraucher",
           "consumerDefinition": "Verbraucher ist jede natürliche Person, die ein Rechtsgeschäft zu Zwecken abschließt, die überwiegend weder ihrer gewerblichen noch ihrer selbständigen beruflichen Tätigkeit zugerechnet werden können.",
           "p1": "Du hast das Recht, diesen Vertrag innerhalb von 14 Tagen ohne Angabe von Gründen zu widerrufen. Die Widerrufsfrist beträgt 14 Tage ab dem Tag des Vertragsabschlusses.",
           "p2": "Um dein Widerrufsrecht auszuüben, musst du uns",
-          "contactAddressHtml": "<1>Katja und Christian Ernst GbR</1><br/>Ludwig-Erhard-Str. 18<br/>c/o IP-Management #45145<br/>20459 Hamburg<br/>E-Mail: <2>{{email}}</2>",
+          "contactAddressHtml": "<strong>Katja und Christian Ernst GbR</strong><br/>Ludwig-Erhard-Str. 18<br/>c/o IP-Management #45145<br/>20459 Hamburg<br/>E-Mail: <link>{email}</link>",
           "p3": "mittels einer eindeutigen Erklärung (z. B. per Post oder per E-Mail) über deinen Entschluss informieren, diesen Vertrag zu widerrufen. Du kannst dafür das unten aufgeführte Muster-Widerrufsformular verwenden, dies ist jedoch nicht verpflichtend.",
           "p4": "Zur Wahrung der Widerrufsfrist reicht es aus, dass du die Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist absendest."
         },
@@ -341,7 +342,7 @@
         "withdrawalForm": {
           "title": "Muster-Widerrufsformular",
           "note": "(Wenn du den Vertrag widerrufen möchtest, fülle bitte dieses Formular aus und sende es zurück.)",
-          "toAddressHtml": "<1>An:</1><br/>Katja und Christian Ernst GbR<br/>Ludwig-Erhard-Str. 18<br/>c/o IP-Management #45145<br/>20459 Hamburg<br/>E-Mail: {{email}}",
+          "toAddressHtml": "<strong>An:</strong><br/>Katja und Christian Ernst GbR<br/>Ludwig-Erhard-Str. 18<br/>c/o IP-Management #45145<br/>20459 Hamburg<br/>E-Mail: {email}",
           "p1": "Hiermit widerrufe ich den von mir abgeschlossenen Vertrag über die Bereitstellung des Zugangs zu folgenden digitalen Inhalten:",
           "blank1": "..............................................................................",
           "orderedAtLabel": "Bestellt am (Datum):",
@@ -361,7 +362,7 @@
       "sections": {
         "provider": {
           "title": "Angaben zum Dienstleistungserbringer",
-          "addressHtml": "<1>Katja und Christian Ernst GbR</1><br/>Ludwig-Erhard-Str. 18<br/>c/o IP-Management #45145<br/>20459 Hamburg",
+          "addressHtml": "<strong>Katja und Christian Ernst GbR</strong><br/>Ludwig-Erhard-Str. 18<br/>c/o IP-Management #45145<br/>20459 Hamburg",
           "contactList": {
             "emailLabel": "E-Mail:",
             "phoneLabel": "Telefon:",
@@ -401,7 +402,7 @@
         "compatibility": {
           "title": "Stand der Vereinbarkeit mit den Anforderungen",
           "p1": "Wir setzen uns für digitale Barrierefreiheit ein und verfolgen das Ziel, unsere Website so zu gestalten, dass sie für alle Nutzerinnen und Nutzer uneingeschränkt zugänglich ist. Daher arbeiten wir kontinuierlich daran, die Anforderungen des Barrierefreiheitsstärkungsgesetzes (BFSG) und der Verordnung zum Barrierefreiheitsstärkungsgesetz (BFSGV) schrittweise umzusetzen.",
-          "p2": "Unser Ziel ist die Orientierung an den Web Content Accessibility Guidelines (WCAG). Diese Website ist derzeit <1>teilweise barrierefrei</1>. Wir arbeiten kontinuierlich daran, bestehende Barrieren zu identifizieren und abzubauen.",
+          "p2": "Unser Ziel ist die Orientierung an den Web Content Accessibility Guidelines (WCAG). Diese Website ist derzeit <strong>teilweise barrierefrei</strong>. Wir arbeiten kontinuierlich daran, bestehende Barrieren zu identifizieren und abzubauen.",
           "p3": "Derzeit umgesetzte Maßnahmen umfassen unter anderem:",
           "bullets": [
             "klare Seitenstruktur",

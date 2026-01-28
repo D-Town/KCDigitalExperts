@@ -2,6 +2,8 @@ import { useTranslations } from 'next-intl';
 
 const Terms = () => {
   const t = useTranslations('Legal.terms');
+  const rightsBullets = t.raw('sections.rights.bullets') as string[];
+  const withdrawalBullets = t.raw('sections.withdrawal.bullets') as string[];
 
   return (
     <main className="kc-wrap" role="main" aria-labelledby="page-title">
@@ -10,13 +12,22 @@ const Terms = () => {
         <section className="legal-section">
           <h1 id="page-title">{t('title')}</h1>
           <p><strong>{t('subtitle')}</strong></p>
-          <p className="legal-address">{t('provider.addressHtml')}</p>
+          <p className="legal-address">
+            {t.rich('provider.addressHtml', {
+              br: () => <br />,
+              email: t('provider.email'),
+            })}
+          </p>
         </section>
-        {t('sections.')}
+
         <section className="legal-section" aria-labelledby="scope">
           <h2 id="scope">{t('sections.scope.title')}</h2>
           <p>{t('sections.scope.p1')}</p>
-          <p>{t('sections.scope.p2')}</p>
+          <p>
+            {t.rich('sections.scope.p2', {
+              strong: (chunks) => <strong>{chunks}</strong>,
+            })}
+          </p>
           <p>{t('sections.scope.p3')}</p>
         </section>
 
@@ -24,7 +35,11 @@ const Terms = () => {
           <h2 id="services">{t('sections.services.title')}</h2>
           <p>{t('sections.services.p1')}</p>
           <p>{t('sections.services.p2')}</p>
-          <p>{t('sections.services.p3')}</p>
+          <p>
+            {t.rich('sections.services.p3', {
+              strong: (chunks) => <strong>{chunks}</strong>,
+            })}
+          </p>
         </section>
 
         <section className="legal-section" aria-labelledby="contract">
@@ -49,13 +64,16 @@ const Terms = () => {
 
         <section className="legal-section" aria-labelledby="rights">
           <h2 id="rights">{t('sections.rights.title')}</h2>
-          <p>{t('sections.rights.p1')}</p>
+          <p>
+            {t.rich('sections.rights.p1', {
+              strong: (chunks) => <strong>{chunks}</strong>,
+            })}
+          </p>
           <p>{t('sections.rights.p2')}</p>
-          <ul>
-            <li>Weitergabe, Verkauf, Vermietung, Verleih oder öffentliche Zugänglichmachung der Inhalte,</li>
-            <li>Teilen von Login-Daten (Account-Sharing),</li>
-            <li>systematisches Kopieren/Extrahieren, Spiegeln oder Re-Upload von Inhalten,</li>
-            <li>Nutzung der Inhalte für Schulungen Dritter (z. B. interne/externe Trainings) ohne gesonderte Lizenz.</li>
+          <ul className="legal__bullets">
+            {rightsBullets.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
           </ul>
           <p>{t('sections.rights.p3')}</p>
           <h3 id="rights-mrr">{t('sections.rights.mrr.title')}</h3>
@@ -65,18 +83,26 @@ const Terms = () => {
 
         <section className="legal-section" aria-labelledby="updates">
           <h2 id="updates">{t('sections.updates.title')}</h2>
-          <p>{t('sections.updates.p1')}</p>
+          <p>
+            {t.rich('sections.updates.p1', {
+              strong: (chunks) => <strong>{chunks}</strong>,
+            })}
+          </p>
           <p>{t('sections.updates.p2')}</p>
         </section>
 
         <section className="legal-section" aria-labelledby="withdrawal">
           <h2 id="withdrawal">{t('sections.withdrawal.title')}</h2>
           <p>{t('sections.withdrawal.p1')}</p>
-          <p>{t('sections.withdrawal.p2')}</p>
-          <ul>{t('sections.withdrawal.')}
-            <li>ausdrücklich zugestimmt hast, dass wir vor Ablauf der Widerrufsfrist mit der Ausführung beginnen, und</li>
-            <li>deine Kenntnis bestätigt hast, dass du durch deine Zustimmung mit Beginn der Ausführung dein Widerrufsrecht
-              verlierst.</li>
+          <p>
+            {t.rich('sections.withdrawal.p2', {
+              strong: (chunks) => <strong>{chunks}</strong>,
+            })}
+          </p>
+          <ul className="legal__bullets">
+            {withdrawalBullets.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
           </ul>
           <p>{t('sections.withdrawal.p3')}</p>
         </section>
@@ -120,8 +146,21 @@ const Terms = () => {
         </section>
 
         <section className="legal-section" aria-labelledby="dispute">
-          <h2 id="dispute">{t('sections.dispute.title')}15. Online-Streitbeilegung / Verbraucherschlichtung</h2>
-          <p>{t('sections.dispute.p1')}</p>
+          <h2 id="dispute">{t('sections.dispute.title')}</h2>
+          <p>
+            {t.rich('sections.dispute.p1', {
+              link: (chunks) => (
+                <a
+                  href={t('sections.dispute.odrUrl')}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {chunks}
+                </a>
+              ),
+              odrUrl: t('sections.dispute.odrUrl'),
+            })}
+          </p>
           <p>{t('sections.dispute.p2')}</p>
         </section>
       </div>
