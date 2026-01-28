@@ -109,7 +109,7 @@
       "title": "Allgemeine Geschäftsbedingungen (AGB)",
       "subtitle": "für digitale Produkte & digitale Dienstleistungen",
       "provider": {
-        "addressHtml": "Katja und Christian Ernst GbR<br/>c/o IP-Management #45145<br/>Ludwig-Erhard-Str. 18<br/>20459 Hamburg<br/>E-Mail: {email}<br/>(nachfolgend „Anbieter“)",
+        "addressHtml": "Katja und Christian Ernst GbR<br></br>c/o IP-Management #45145<br></br>Ludwig-Erhard-Str. 18<br></br>20459 Hamburg<br></br>E-Mail: {email}<br></br>(nachfolgend „Anbieter“)",
         "email": "info@kcdigitalexperts.de"
       },
       "sections": {
@@ -249,7 +249,7 @@
           "title": "2. Hosting",
           "externalHosting": {
             "title": "Externes Hosting",
-            "providerAddress": "<strong>Cloudflare, Inc.</strong><br/>101 Townsend St.<br/>San Francisco, CA 94107<br/>USA",
+            "providerAddress": "<strong>Cloudflare, Inc.</strong><br></br>101 Townsend St.<br></br>San Francisco, CA 94107<br></br>USA",
             "p1": "Cloudflare verarbeitet personenbezogene Daten (z. B. IP-Adressen, Logdaten, technische Zugriffsdaten), um die Website bereitzustellen, vor Angriffen zu schützen und eine stabile Auslieferung zu gewährleisten.",
             "p2": "Die Datenverarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer sicheren und effizienten Bereitstellung unseres Online-Angebots)."
           }
@@ -259,7 +259,7 @@
           "controllerNotice": {
             "title": "Hinweis zur verantwortlichen Stelle",
             "p1": "Verantwortlich für die Datenverarbeitung auf dieser Website ist:",
-            "address": "<strong>Katja und Christian Ernst GbR</strong><br/>c/o IP-Management #45145<br/>Ludwig-Erhard-Str. 18<br/>20459 Hamburg<br/><br/>Telefon: 0211 17801315<br/>E-Mail: info@kcdigitalexperts.de"
+            "address": "<strong>Katja und Christian Ernst GbR</strong><br></br>c/o IP-Management #45145<br></br>Ludwig-Erhard-Str. 18<br></br>20459 Hamburg<br></br><br></br>Telefon: 0211 17801315<br></br>E-Mail: info@kcdigitalexperts.de"
           },
           "retention": {
             "title": "Speicherdauer",
@@ -326,7 +326,7 @@
           "consumerDefinition": "Verbraucher ist jede natürliche Person, die ein Rechtsgeschäft zu Zwecken abschließt, die überwiegend weder ihrer gewerblichen noch ihrer selbständigen beruflichen Tätigkeit zugerechnet werden können.",
           "p1": "Du hast das Recht, diesen Vertrag innerhalb von 14 Tagen ohne Angabe von Gründen zu widerrufen. Die Widerrufsfrist beträgt 14 Tage ab dem Tag des Vertragsabschlusses.",
           "p2": "Um dein Widerrufsrecht auszuüben, musst du uns",
-          "contactAddressHtml": "<strong>Katja und Christian Ernst GbR</strong><br/>Ludwig-Erhard-Str. 18<br/>c/o IP-Management #45145<br/>20459 Hamburg<br/>E-Mail: <link>{email}</link>",
+          "contactAddressHtml": "<strong>Katja und Christian Ernst GbR</strong><br></br>Ludwig-Erhard-Str. 18<br></br>c/o IP-Management #45145<br></br>20459 Hamburg<br></br>E-Mail: <link>{email}</link>",
           "p3": "mittels einer eindeutigen Erklärung (z. B. per Post oder per E-Mail) über deinen Entschluss informieren, diesen Vertrag zu widerrufen. Du kannst dafür das unten aufgeführte Muster-Widerrufsformular verwenden, dies ist jedoch nicht verpflichtend.",
           "p4": "Zur Wahrung der Widerrufsfrist reicht es aus, dass du die Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist absendest."
         },
@@ -342,7 +342,7 @@
         "withdrawalForm": {
           "title": "Muster-Widerrufsformular",
           "note": "(Wenn du den Vertrag widerrufen möchtest, fülle bitte dieses Formular aus und sende es zurück.)",
-          "toAddressHtml": "<strong>An:</strong><br/>Katja und Christian Ernst GbR<br/>Ludwig-Erhard-Str. 18<br/>c/o IP-Management #45145<br/>20459 Hamburg<br/>E-Mail: {email}",
+          "toAddressHtml": "<strong>An:</strong><br></br>Katja und Christian Ernst GbR<br></br>Ludwig-Erhard-Str. 18<br></br>c/o IP-Management #45145<br></br>20459 Hamburg<br></br>E-Mail: {email}",
           "p1": "Hiermit widerrufe ich den von mir abgeschlossenen Vertrag über die Bereitstellung des Zugangs zu folgenden digitalen Inhalten:",
           "blank1": "..............................................................................",
           "orderedAtLabel": "Bestellt am (Datum):",
@@ -362,7 +362,7 @@
       "sections": {
         "provider": {
           "title": "Angaben zum Dienstleistungserbringer",
-          "addressHtml": "<strong>Katja und Christian Ernst GbR</strong><br/>Ludwig-Erhard-Str. 18<br/>c/o IP-Management #45145<br/>20459 Hamburg",
+          "addressHtml": "<strong>Katja und Christian Ernst GbR</strong><br></br>Ludwig-Erhard-Str. 18<br></br>c/o IP-Management #45145<br></br>20459 Hamburg",
           "contactList": {
             "emailLabel": "E-Mail:",
             "phoneLabel": "Telefon:",
@@ -413,7 +413,7 @@
         },
         "authority": {
           "title": "Zuständige Marktüberwachungsbehörde",
-          "addressHtml": "Marktüberwachungsstelle der Länder für die Barrierefreiheit von Produkten und Dienstleistungen (MLBF)<br/>c/o Ministerium für Arbeit, Soziales, Gesundheit und Gleichstellung Sachsen-Anhalt<br/>Postfach 39 11 55<br/>39135 Magdeburg",
+          "addressHtml": "Marktüberwachungsstelle der Länder für die Barrierefreiheit von Produkten und Dienstleistungen (MLBF)<br></br>c/o Ministerium für Arbeit, Soziales, Gesundheit und Gleichstellung Sachsen-Anhalt<br></br>Postfach 39 11 55<br></br>39135 Magdeburg",
           "contactList": {
             "phoneLabel": "Telefon:",
             "emailLabel": "E-Mail:",
