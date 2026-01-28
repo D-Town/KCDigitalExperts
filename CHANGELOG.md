@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.2.0](https://github.com/D-Town/ClientContent/compare/v1.1.0...v1.2.0) (2026-01-28)
+
+
+### Features
+
+* add header and footer ([6064a12](https://github.com/D-Town/ClientContent/commit/6064a12bdd2aa4a5f29538138ef80dcf904a4f9d))
+* add header footer ([64ed170](https://github.com/D-Town/ClientContent/commit/64ed17053dcc635d9eec1f16955545e921397b38))
+* add i18n part 1 ([aedf39c](https://github.com/D-Town/ClientContent/commit/aedf39c4d1559d07488976726684d52d76e21bb0))
+* add rest of legal sites ([f676354](https://github.com/D-Town/ClientContent/commit/f67635441ba2a184d6df4547c7ff9a9ad82925ff))
+* imprint ([155b87d](https://github.com/D-Town/ClientContent/commit/155b87d184dafe0ee3327f7d344807083e5440a6))
+
 ## [1.1.0](https://github.com/D-Town/ClientContent/compare/v1.0.0...v1.1.0) (2026-01-16)
 
 
