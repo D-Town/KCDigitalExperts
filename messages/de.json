@@ -71,6 +71,40 @@
       "submit": "Absenden"
     }
   },
+  "Contact": {
+    "title": "Kontaktformular",
+    "intro": "Schreib uns gern. Wir melden uns so schnell wie möglich bei dir.",
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Dein Name"
+      },
+      "email": {
+        "label": "E-Mail",
+        "placeholder": "deine@email.de"
+      },
+      "message": {
+        "label": "Nachricht",
+        "placeholder": "Deine Nachricht...",
+        "hint": "{count} / 1200 Zeichen"
+      },
+      "submit": "Absenden",
+      "submitPending": "Wird gesendet…"
+    },
+    "success": {
+      "title": "Danke! Deine Nachricht ist angekommen.",
+      "message": "Wir haben dir eine Bestätigung per E-Mail geschickt."
+    },
+    "errors": {
+      "default": "Ups! Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+      "validation": "Bitte fülle alle Felder korrekt aus.",
+      "rateLimit": "Zu viele Anfragen. Bitte warte kurz und versuche es dann erneut.",
+      "missingRecaptcha": "reCAPTCHA ist nicht konfiguriert. Bitte später erneut versuchen.",
+      "recaptchaUnavailable": "reCAPTCHA ist gerade nicht verfügbar. Bitte versuche es erneut.",
+      "recaptchaFailed": "reCAPTCHA-Prüfung fehlgeschlagen. Bitte versuche es erneut.",
+      "messageTooLong": "Die Nachricht ist zu lang. Bitte kürze sie auf maximal 1200 Zeichen."
+    }
+  },
   "Footer": {
     "quickLinks": {
       "title": "Kurzlinks",
