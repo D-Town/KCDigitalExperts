@@ -12,9 +12,9 @@ export const Header = () => {
   return (
     <header className="header" role="banner">
       {/* Skip to Main Content Link für Barrierefreiheit */}
-      <a href="#main-content" className="skip-link">
+      <Link href="#main-content" className="skip-link">
         {t("skipToContent")}
-      </a>
+      </Link>
 
       <nav className="container-custom" aria-label="Hauptnavigation">
         <div className="flex items-center justify-between gap-4 py-4 md:py-5">
@@ -36,16 +36,16 @@ export const Header = () => {
                 {t("nav.products")}
               </summary>
               <div className="nav-dropdown">
-                <a href="/produkte/mrr" className="nav-link">{t("nav.productItems.mrr")}</a>
-                <a href="/produkte/affiliate" className="nav-link">{t("nav.productItems.affiliate")}</a>
-                <a href="/produkte/sonstige" className="nav-link">{t("nav.productItems.other")}</a>
+                <Link href="/produkte/mrr" className="nav-link">{t("nav.productItems.mrr")}</Link>
+                <Link href="/produkte/affiliate" className="nav-link">{t("nav.productItems.affiliate")}</Link>
+                <Link href="/produkte/sonstige" className="nav-link">{t("nav.productItems.other")}</Link>
               </div>
             </details>
-            <a href="/ueber-uns" className="nav-link">{t("nav.about")}</a>
-            <a href="/kontakt" className="nav-link">{t("nav.contact")}</a>
+            <Link href="/ueber-uns" className="nav-link">{t("nav.about")}</Link>
+            <Link href="/contact" className="nav-link">{t("nav.contact")}</Link>
             <ThemeToggle />
             <LanguageSwitcher />
-            <a href="/login" className="btn-primary">{t("nav.login")}</a>
+            <Link href="/login" className="btn-primary">{t("nav.login")}</Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -74,14 +74,14 @@ export const Header = () => {
                 {t("nav.products")}
               </summary>
               <div className="space-y-1 px-3 pb-2">
-                <a href="/produkte/mrr" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.mrr")}</a>
-                <a href="/produkte/affiliate" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.affiliate")}</a>
-                <a href="/produkte/sonstige" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.other")}</a>
+                <Link href="/produkte/mrr" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.mrr")}</Link>
+                <Link href="/produkte/affiliate" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.affiliate")}</Link>
+                <Link href="/produkte/sonstige" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.other")}</Link>
               </div>
             </details>
-            <a href="/ueber-uns" className="nav-link block rounded-xl px-3 py-2" role="menuitem">{t("about")}</a>
-            <a href="/kontakt" className="nav-link block rounded-xl px-3 py-2" role="menuitem">{t("contact")}</a>
-            <a href="/login" className="btn-primary w-full mt-3" role="menuitem">{t("login")}</a>
+            <Link href="/ueber-uns" className="nav-link block rounded-xl px-3 py-2" role="menuitem">{t("about")}</Link>
+            <Link href="/kontakt" className="nav-link block rounded-xl px-3 py-2" role="menuitem">{t("contact")}</Link>
+            <Link href="/login" className="btn-primary w-full mt-3" role="menuitem">{t("login")}</Link>
           </div>
         )}
       </nav>

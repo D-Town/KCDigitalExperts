@@ -15,7 +15,7 @@ export function Footer() {
               <li><Link href="/produkt-1">{t("quickLinks.items.home")}</Link></li>
               <li><Link href="/produkt-2">{t("quickLinks.items.shop")}</Link></li>
               <li><Link href="/produkt-3">{t("quickLinks.items.about")} uns</Link></li>
-              <li><Link href="/produkt-3">{t("quickLinks.items.contact")}</Link></li>
+              <li><Link href="/contact">{t("quickLinks.items.contact")}</Link></li>
             </ul>
           </div>
 
