@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0](https://github.com/D-Town/ClientContent/compare/v1.2.0...v1.3.0) (2026-01-29)
+
+
+### Features
+
+* add contact form ([1faa1c9](https://github.com/D-Town/ClientContent/commit/1faa1c9831a321fb606ac56e00ddb0d6a1459c08))
+* add rechapta for spam protection ([8a665b5](https://github.com/D-Town/ClientContent/commit/8a665b5fcdbe87ce256e999f502212374dfa9a95))
+
 ## [1.2.0](https://github.com/D-Town/ClientContent/compare/v1.1.0...v1.2.0) (2026-01-28)
 
 
