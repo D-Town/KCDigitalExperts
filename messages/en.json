@@ -24,51 +24,32 @@
   },
   "Home": {
     "hero": {
-      "title": "Welcome to our website",
-      "description": "Discover innovative solutions that make your life easier. With modern technology and user-friendly design.",
-      "primaryCta": "Get started",
-      "secondaryCta": "Learn more"
+      "title": "Unser Sprungbrett in die digitale Welt - Gemeinsam den ersten Schritt wagen!",
+      "subTitle": "Mit Teamgeist und Know-how zum digitalen Erfolg",
+      "p1": "Im Jahr 2024 erobert ein innovatives Geschäftsmodell aus den USA den deutschen Markt UND du kannst einer der Ersten sein, der davon profitiert!",
+      "p2": "Verkaufe digitale Produkte, die bereits für dich bereit zum Verkauf stehen, <strong>OHNE</strong> dass du sie selbst erstellen musst - <u>dank der Master Resell Rights und Affiliate Programme.</u>",
+      "p3": "Das Beste daran? Nach deinem ersten Verkauf eines MRR Produkts hast du dein Investment bereits zurückgewonnen. <strong>Jeder weitere Verkauf bringt dir 100 % Gewinn. Die Affiliate Provision beträgt zwischen 50-90 % Gewinn, beim Weiterverkauf.</strong>",
+      "p4": "Sei dabei und verpasse diese einmalige Gelegenheit nicht!",
+      "button": "Starte Hier!",
+      "buttonSubtitle": "zur Produktauswahl"
     },
-    "features": {
-      "speed": {
-        "title": "Fast",
-        "description": "Lightning-fast performance for an optimal user experience."
-      },
-      "security": {
-        "title": "Secure",
-        "description": "Top security standards to protect your data."
-      },
-      "reliability": {
-        "title": "Reliable",
-        "description": "99.9% uptime for uninterrupted service."
-      }
+    "story": {
+      "title":"Unsere Story - Wer wir sind",
+      "p1": "Wir wissen genau, wie es sich anfühlt, wenn am Ende des Monats mehr Tage als Geld übrig sind. Diese Situation hat uns wachgerüttelt - und wir haben beschlossen, das zu ändern.",
+      "p2": "Wir wollten raus aus dem Hamsterrad und haben nach Wegen gesucht, uns online etwas Eigenes aufzubauen: flexibel, von überall, ohne großes Startkapital. Nicht nur, um uns selbst mehr leisten zu können, sondern auch, um unsere Familie zu unterstützen und für die Zukunft vorzusorgen.",
+      "p3": "Der Anfang war alles andere als leicht. Es gab unzählige Angebote - aber kaum klare Antworten. Was funktioniert wirklich? Und wo fängt man an?",
+      "p4": "Heute geben wir genau das weiter, was wir selbst gebraucht hätten: ehrliche, praxisnahe Unterstützung ohne leere Versprechen oder kompliziertes Fachchinesisch.",
+      "p5": "Denn eines ist heute klarer denn je: Es reicht nicht mehr, nur ein Einkommen zu haben. Wer finanziell sicherer leben will, braucht verschiedene Standbeine - am besten solche, die auch im Hintergrund für dich arbeiten. Ob als Zusatzeinkommen oder langfristige Perspektive: Es ist möglich, wenn du weißt, wie."
     },
-    "typography": {
-      "title": "Typography examples",
-      "h3": "This is an H3 heading",
-      "h4": "This is an H4 heading",
-      "h5": "This is an H5 heading",
-      "h6": "This is an H6 heading",
-      "bodyPrefix": "This is a normal paragraph with",
-      "linkText": "a link",
-      "bodySuffix": "The text is easy to read and has a pleasant line height.",
-      "mutedText": "This is muted text used for less important information."
+    "consulting": {
+      "title":"Brauchst du persönliche Beratung?",
+      "p1":"Du bist dir nicht sicher, welches Angebot zu dir passt oder brauchst eine individuelle Strategie? Buche ein kostenloses Erstgespräch mit uns!",
+      "button":"JETZT Termin Sichern",
+      "buttonSubtitle": "Kostenlose Beratung buchen"
     },
-    "form": {
-      "title": "Contact form",
-      "name": {
-        "label": "Name",
-        "placeholder": "Your name"
-      },
-      "email": {
-        "label": "Email",
-        "placeholder": "you@email.com"
-      },
-      "message": {
-        "label": "Message",
-        "placeholder": "Your message..."
-      },
-      "submit": "Send"
+    "why": {
+      "title":"Warum KC Digital Experts?",
+      "bullets": ["<strong>✔ Erprobte Strategien</strong> - Wir zeigen dir nur, was wirklich funktioniert.","<strong>✔ Kein Tech-BlaBla </strong>- Leicht verständlich, praxisnah und umsetzbar.","<strong>✔ Erfahrung aus erster Hand</strong> - Wir haben unser Business selbst nebenbei aufgebaut."]
     }
   },
   "Contact": {
