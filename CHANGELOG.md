@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/D-Town/ClientContent/compare/v1.3.0...v1.4.0) (2026-01-31)
+
+
+### Features
+
+* add main page content ([76b4ea1](https://github.com/D-Town/ClientContent/commit/76b4ea1e668395e253b9bdde0022810465e78c85))
+
 ## [1.3.0](https://github.com/D-Town/ClientContent/compare/v1.2.0...v1.3.0) (2026-01-29)
 
 
