@@ -6,12 +6,13 @@ const Home = () => {
 
   const t = useTranslations('Home');
   const whyBullets = t.raw('why.bullets') as string[];
+  const headerTitle = t.rich('hero.title', { br: () => <br /> }) as string
   return (
     <>
       <HeroSection
         src='/img/energy-1280x768.png'
         alt='Dynamisches digitales Wellenmuster als Symbol für moderne IT-Lösungen von KC Digital Experts'
-        text={t("hero.title")} />
+        text={headerTitle} />
       <div className="container-custom py-12 space-y-12">
 
         <section className="text-center space-y-6">

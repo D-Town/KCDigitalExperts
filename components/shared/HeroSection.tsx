@@ -1,6 +1,4 @@
 import Image from "next/image";
-import { text } from "stream/consumers";
-
 
 const HeroSection = ({ src, alt, text }: { src: string, alt: string, text: string }) => {
 

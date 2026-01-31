@@ -24,32 +24,36 @@
   },
   "Home": {
     "hero": {
-      "title": "Unser Sprungbrett in die digitale Welt - Gemeinsam den ersten Schritt wagen!",
-      "subTitle": "Mit Teamgeist und Know-how zum digitalen Erfolg",
-      "p1": "Im Jahr 2024 erobert ein innovatives Geschäftsmodell aus den USA den deutschen Markt UND du kannst einer der Ersten sein, der davon profitiert!",
-      "p2": "Verkaufe digitale Produkte, die bereits für dich bereit zum Verkauf stehen, <strong>OHNE</strong> dass du sie selbst erstellen musst - <u>dank der Master Resell Rights und Affiliate Programme.</u>",
-      "p3": "Das Beste daran? Nach deinem ersten Verkauf eines MRR Produkts hast du dein Investment bereits zurückgewonnen. <strong>Jeder weitere Verkauf bringt dir 100 % Gewinn. Die Affiliate Provision beträgt zwischen 50-90 % Gewinn, beim Weiterverkauf.</strong>",
-      "p4": "Sei dabei und verpasse diese einmalige Gelegenheit nicht!",
-      "button": "Starte Hier!",
-      "buttonSubtitle": "zur Produktauswahl"
+      "title": "Your Launchpad into the Digital World - <br></br>Take the First Step with Us",
+      "subTitle": "Achieve digital success through teamwork and real-world know-how",
+      "p1": "In 2024, an innovative business model from the United States is entering the European market — and you can be among the first to benefit from it.",
+      "p2": "Sell digital products that are already created and ready to go — <strong>WITHOUT</strong> having to create them yourself — <u>thanks to Master Resell Rights and affiliate programs.</u>",
+      "p3": "The best part? After your very first MRR sale, you’ve already made your investment back. <strong>Every additional sale is 100% profit. Affiliate commissions range from 50% to 90% on resales.</strong>",
+      "p4": "Join us now and don’t miss this unique opportunity!",
+      "button": "Get Started",
+      "buttonSubtitle": "Browse available products"
     },
     "story": {
-      "title":"Unsere Story - Wer wir sind",
-      "p1": "Wir wissen genau, wie es sich anfühlt, wenn am Ende des Monats mehr Tage als Geld übrig sind. Diese Situation hat uns wachgerüttelt - und wir haben beschlossen, das zu ändern.",
-      "p2": "Wir wollten raus aus dem Hamsterrad und haben nach Wegen gesucht, uns online etwas Eigenes aufzubauen: flexibel, von überall, ohne großes Startkapital. Nicht nur, um uns selbst mehr leisten zu können, sondern auch, um unsere Familie zu unterstützen und für die Zukunft vorzusorgen.",
-      "p3": "Der Anfang war alles andere als leicht. Es gab unzählige Angebote - aber kaum klare Antworten. Was funktioniert wirklich? Und wo fängt man an?",
-      "p4": "Heute geben wir genau das weiter, was wir selbst gebraucht hätten: ehrliche, praxisnahe Unterstützung ohne leere Versprechen oder kompliziertes Fachchinesisch.",
-      "p5": "Denn eines ist heute klarer denn je: Es reicht nicht mehr, nur ein Einkommen zu haben. Wer finanziell sicherer leben will, braucht verschiedene Standbeine - am besten solche, die auch im Hintergrund für dich arbeiten. Ob als Zusatzeinkommen oder langfristige Perspektive: Es ist möglich, wenn du weißt, wie."
+      "title": "Our Story Who We Are",
+      "p1": "We know exactly what it feels like when there’s more month left than money. That realization was our wake-up call — and we decided it was time to change something.",
+      "p2": "We wanted out of the rat race and started looking for ways to build something of our own online: flexible, location-independent, and without a large upfront investment. Not just to improve our own lives, but to support our family and build long-term security.",
+      "p3": "The beginning was anything but easy. There were countless offers — but very few clear answers. What actually works? And where do you even start?",
+      "p4": "Today, we share exactly what we wish we had back then: honest, practical guidance without empty promises or confusing jargon.",
+      "p5": "Because one thing is clearer than ever: relying on a single income is no longer enough. If you want real financial stability, you need multiple income streams — ideally ones that work for you in the background. Whether as a side income or a long-term path forward: it’s possible when you know how."
     },
     "consulting": {
-      "title":"Brauchst du persönliche Beratung?",
-      "p1":"Du bist dir nicht sicher, welches Angebot zu dir passt oder brauchst eine individuelle Strategie? Buche ein kostenloses Erstgespräch mit uns!",
-      "button":"JETZT Termin Sichern",
-      "buttonSubtitle": "Kostenlose Beratung buchen"
+      "title": "Do You Need Personal Guidance?",
+      "p1": "Not sure which offer is right for you or need a strategy tailored to your situation? Book a free initial consultation with us!",
+      "button": "Book Your Free Call",
+      "buttonSubtitle": "Schedule a free consultation"
     },
     "why": {
-      "title":"Warum KC Digital Experts?",
-      "bullets": ["<strong>✔ Erprobte Strategien</strong> - Wir zeigen dir nur, was wirklich funktioniert.","<strong>✔ Kein Tech-BlaBla </strong>- Leicht verständlich, praxisnah und umsetzbar.","<strong>✔ Erfahrung aus erster Hand</strong> - Wir haben unser Business selbst nebenbei aufgebaut."]
+      "title": "Why KC Digital Experts?",
+      "bullets": [
+        "<strong>✔ Proven strategies</strong> — We only teach what actually works.",
+        "<strong>✔ No tech jargon</strong> — Clear, practical, and easy to implement.",
+        "<strong>✔ Real-world experience</strong> — We built our business ourselves, alongside everyday life."
+      ]
     }
   },
   "Contact": {
@@ -136,9 +140,9 @@
         },
         "services": {
           "title": "2. Leistungen & Leistungsbeschreibung",
-          "p1": "(1) Wir bieten digitale Produkte sowie digitale Bildungs- und Informationsleistungen an – insbesondere rund um Online-Business, digitales Marketing, Content-Erstellung sowie Tools/Automatisierung (z. B. Kurse, Videos, Workbooks, Vorlagen, Anleitungen, Mitgliederbereiche).",
+          "p1": "(1) Wir bieten digitale Produkte sowie digitale Bildungs- und Informationsleistungen an - insbesondere rund um Online-Business, digitales Marketing, Content-Erstellung sowie Tools/Automatisierung (z. B. Kurse, Videos, Workbooks, Vorlagen, Anleitungen, Mitgliederbereiche).",
           "p2": "(2) Welche Inhalte du genau bekommst (Umfang, Voraussetzungen, ggf. Laufzeit), ergibt sich aus der jeweiligen Leistungsbeschreibung auf der Verkaufsseite bzw. im Checkout.",
-          "p3": "(3) Wir schulden die Bereitstellung der beschriebenen Inhalte/Leistungen – <strong>nicht</strong> jedoch einen bestimmten wirtschaftlichen oder geschäftlichen Erfolg (z. B. Umsatz, Reichweite, Kundengewinn)."
+          "p3": "(3) Wir schulden die Bereitstellung der beschriebenen Inhalte/Leistungen - <strong>nicht</strong> jedoch einen bestimmten wirtschaftlichen oder geschäftlichen Erfolg (z. B. Umsatz, Reichweite, Kundengewinn)."
         },
         "contract": {
           "title": "3. Vertragsschluss",
@@ -159,7 +163,7 @@
         },
         "rights": {
           "title": "6. Nutzungsrechte, Weitergabe & Account-Sharing",
-          "p1": "(1) Sofern nicht anders angegeben, erhältst du ein <strong>einfaches, nicht übertragbares und nicht unterlizenzierbares</strong> Nutzungsrecht. Dieses gilt für die Vertragslaufzeit bzw. bei Einmalkauf zeitlich unbeschränkt – ausschließlich für eigene Zwecke.",
+          "p1": "(1) Sofern nicht anders angegeben, erhältst du ein <strong>einfaches, nicht übertragbares und nicht unterlizenzierbares</strong> Nutzungsrecht. Dieses gilt für die Vertragslaufzeit bzw. bei Einmalkauf zeitlich unbeschränkt - ausschließlich für eigene Zwecke.",
           "p2": "(2) Insbesondere ist Folgendes untersagt:",
           "bullets": [
             "Weitergabe, Verkauf, Vermietung, Verleih oder öffentliche Zugänglichmachung der Inhalte,",
@@ -246,12 +250,12 @@
             },
             "howWeCollect": {
               "title": "Wie erfassen wir deine Daten?",
-              "p1": "Zum einen werden Daten erhoben, die du uns aktiv mitteilst – etwa, wenn du ein Formular ausfüllst oder Kontakt zu uns aufnimmst.",
+              "p1": "Zum einen werden Daten erhoben, die du uns aktiv mitteilst - etwa, wenn du ein Formular ausfüllst oder Kontakt zu uns aufnimmst.",
               "p2": "Weitere Daten werden automatisch oder nach deiner Einwilligung durch unsere IT-Systeme erfasst, sobald du die Website besuchst. Dabei handelt es sich vor allem um technische Informationen (z. B. Browsertyp, Betriebssystem oder Zeitpunkt des Seitenaufrufs)."
             },
             "whyWeUse": {
               "title": "Wofür nutzen wir deine Daten?",
-              "p1": "Ein Teil der Daten ist erforderlich, um die Website technisch fehlerfrei bereitzustellen. Andere Daten können – sofern du eingewilligt hast – zur Analyse deines Nutzerverhaltens verwendet werden. Werden über die Website Verträge angebahnt oder abgeschlossen, verarbeiten wir die übermittelten Daten außerdem zur Abwicklung von Bestellungen, Vertragsangeboten oder Anfragen."
+              "p1": "Ein Teil der Daten ist erforderlich, um die Website technisch fehlerfrei bereitzustellen. Andere Daten können - sofern du eingewilligt hast - zur Analyse deines Nutzerverhaltens verwendet werden. Werden über die Website Verträge angebahnt oder abgeschlossen, verarbeiten wir die übermittelten Daten außerdem zur Abwicklung von Bestellungen, Vertragsangeboten oder Anfragen."
             },
             "yourRights": {
               "title": "Welche Rechte hast du?",
@@ -373,7 +377,7 @@
     },
     "accessibility": {
       "title": "Erklärung zur Barrierefreiheit für Dienstleistungen",
-      "intro": "Im Rahmen unserer Barrierefreiheitserklärung möchten wir Ihnen einen Überblick über den Stand der Vereinbarkeit der unten beschriebenen Dienstleistung(en) mit den Anforderungen der Barrierefreiheit nach gesetzlichen Vorschriften (insbesondere mit dem Barrierefreiheitsstärkungsgesetz – BFSG) geben.",
+      "intro": "Im Rahmen unserer Barrierefreiheitserklärung möchten wir Ihnen einen Überblick über den Stand der Vereinbarkeit der unten beschriebenen Dienstleistung(en) mit den Anforderungen der Barrierefreiheit nach gesetzlichen Vorschriften (insbesondere mit dem Barrierefreiheitsstärkungsgesetz - BFSG) geben.",
       "sections": {
         "provider": {
           "title": "Angaben zum Dienstleistungserbringer",
