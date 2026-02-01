@@ -1,6 +1,5 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import Link from "next/link";
 
 const AboutUs = () => {
   const t = useTranslations('AboutUs');

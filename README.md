@@ -546,3 +546,8 @@ NEXT_PUBLIC_SITE_URL=http://localhost:3000
 ---
 
 **Let's build something awesome! 🚀**
+
+
+##LINKS
+
+https://tailwindflex.com/tag/pricing
