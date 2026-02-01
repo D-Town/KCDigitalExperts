@@ -530,6 +530,10 @@
         "p1": "KC Digital Experts steht für ehrliche Empfehlungen, klare Strukturen und Produkte, die in der Praxis funktionieren.<br></br>Wir zeigen nicht den schnellen Traum, sondern realistische Wege.",
         "p2": "Am Ende entscheidest du selbst, welches Produkt zu dir passt. Diese Seite soll dir dabei helfen, den Überblick zu behalten – nicht dich zu überreden."
       }
+    },
+    "productCard": {
+      "p": "Empfohlener Preis:",
+      "link": "Jetzt kaufen"
     }
   }
 }

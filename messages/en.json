@@ -530,6 +530,10 @@
         "p1": "KC Digital Experts stands for honest recommendations, clear structures, and products that work in real life.<br></br>We don’t sell hype, we focus on realistic paths.",
         "p2": "In the end, the decision is yours. This page is meant to give you orientation – not pressure you into buying."
       }
+    },
+    "productCard": {
+      "p": "Recommended price:",
+      "link": "View product"
     }
   }
 }
