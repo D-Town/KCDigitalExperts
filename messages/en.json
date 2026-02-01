@@ -8,6 +8,7 @@
     "nav": {
       "products": "Products",
       "productItems": {
+        "all": "All products",
         "mrr": "MRR Products",
         "affiliate": "Affiliate Products",
         "other": "Other"

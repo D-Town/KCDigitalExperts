@@ -36,6 +36,7 @@ export const Header = () => {
                 {t("nav.products")}
               </summary>
               <div className="nav-dropdown">
+                <Link href="/shop" className="nav-link">{t("nav.productItems.all")}</Link>
                 <Link href="/produkte/mrr" className="nav-link">{t("nav.productItems.mrr")}</Link>
                 <Link href="/produkte/affiliate" className="nav-link">{t("nav.productItems.affiliate")}</Link>
                 <Link href="/produkte/sonstige" className="nav-link">{t("nav.productItems.other")}</Link>
@@ -74,6 +75,7 @@ export const Header = () => {
                 {t("nav.products")}
               </summary>
               <div className="space-y-1 px-3 pb-2">
+                <Link href="/produkte/shop" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.all")}</Link>
                 <Link href="/produkte/mrr" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.mrr")}</Link>
                 <Link href="/produkte/affiliate" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.affiliate")}</Link>
                 <Link href="/produkte/sonstige" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.other")}</Link>

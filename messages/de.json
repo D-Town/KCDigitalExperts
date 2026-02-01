@@ -8,6 +8,7 @@
     "nav": {
       "products": "Produkte",
       "productItems": {
+        "all": "Alle Produkte",
         "mrr": "MRR-Produkte",
         "affiliate": "Affiliate-Produkte",
         "other": "Sonstige"
@@ -57,7 +58,7 @@
     }
   },
   "AboutUs": {
-    "title":"Über uns",
+    "title": "Über uns",
     "whoIs": {
       "title": "Wir sind Katja und Christian, die Köpfe hinter KC Digital Experts.",
       "p1": "Wir haben selbst bei null angefangen und wissen genau, wie verwirrend der Einstieg ins digitale Business sein kann.",
