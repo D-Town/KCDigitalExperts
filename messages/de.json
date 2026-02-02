@@ -345,10 +345,16 @@
         },
         "analytics": {
           "title": "7. Analyse-Tools & Sicherheit",
-          "p1": "Analyse-Tools wie Google Analytics werden nur eingesetzt, wenn du zuvor ausdrücklich eingewilligt hast. Zudem setzen wir Sicherheitsmechanismen wie SSL-/TLS-Verschlüsselung ein, um deine Daten zu schützen."
+          "p1": "Analyse-Tools wie Google Analytics werden nur eingesetzt, wenn du zuvor ausdrücklich eingewilligt hast. Zudem setzen wir Sicherheitsmechanismen wie SSL-/TLS-Verschlüsselung ein, um deine Daten zu schützen.",
+          "p2": "Wir nutzen Google Tag Manager (GTM), um Analyse- und Marketing-Tags zentral zu verwalten. Die Ausführung erfolgt erst nach deiner Einwilligung (Consent Mode v2)."
+        },
+        "recaptcha": {
+          "title": "8. reCAPTCHA",
+          "p1": "Zum Schutz unserer Formulare verwenden wir Google reCAPTCHA (v3). Damit prüfen wir, ob Eingaben von Menschen stammen und verhindern Missbrauch.",
+          "p2": "Dabei werden technische Daten (z. B. IP-Adresse, Browserinformationen, Mausbewegungen) an Google übertragen. Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (Sicherheitsinteresse) und ggf. Art. 6 Abs. 1 lit. a DSGVO (Einwilligung)."
         },
         "objection": {
-          "title": "8. Widerspruch gegen Werbe-E-Mails",
+          "title": "9. Widerspruch gegen Werbe-E-Mails",
           "p1": "Der Nutzung veröffentlichter Kontaktdaten zur Übersendung nicht ausdrücklich angeforderter Werbung wird hiermit widersprochen."
         }
       }
@@ -535,6 +541,14 @@
       "p": "Empfohlener Preis:",
       "link": "Jetzt kaufen"
     }
+  },
+  "CookieBanner": {
+    "title": "Cookies & Datenschutz",
+    "description": "Wir nutzen Cookies für Analyse und Marketing, um die Website zu verbessern. Du kannst zustimmen oder nur notwendige Cookies akzeptieren.",
+    "essentialNote": "Technisch notwendige Cookies (z. B. von Cloudflare für Sicherheit und Performance) sind immer aktiv.",
+    "privacyLink": "Mehr Infos in der Datenschutzerklärung",
+    "acceptEssential": "Nur notwendig",
+    "acceptAll": "Alle akzeptieren"
   },
   "NotFound": {
     "title": "Diese Seite wurde nicht gefunden.",

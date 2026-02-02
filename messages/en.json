@@ -344,12 +344,18 @@
           "p1": "Für den Versand unseres Newsletters nutzen wir das Double-Opt-In-Verfahren. Die Verarbeitung deiner Daten erfolgt ausschließlich auf Grundlage deiner Einwilligung, die du jederzeit widerrufen kannst."
         },
         "analytics": {
-          "title": "7. Analyse-Tools & Sicherheit",
-          "p1": "Analyse-Tools wie Google Analytics werden nur eingesetzt, wenn du zuvor ausdrücklich eingewilligt hast. Zudem setzen wir Sicherheitsmechanismen wie SSL-/TLS-Verschlüsselung ein, um deine Daten zu schützen."
+          "title": "7. Analytics & Security",
+          "p1": "Analytics tools such as Google Analytics are only used if you have explicitly consented. We also use security mechanisms such as SSL/TLS encryption to protect your data.",
+          "p2": "We use Google Tag Manager (GTM) to manage analytics and marketing tags. Execution only occurs after your consent (Consent Mode v2)."
+        },
+        "recaptcha": {
+          "title": "8. reCAPTCHA",
+          "p1": "We use Google reCAPTCHA (v3) to protect our forms. It helps verify that inputs are made by humans and prevents abuse.",
+          "p2": "Technical data (e.g., IP address, browser information, mouse movements) is transmitted to Google. Processing is based on Art. 6(1)(f) GDPR (security interest) and, where required, Art. 6(1)(a) GDPR (consent)."
         },
         "objection": {
-          "title": "8. Widerspruch gegen Werbe-E-Mails",
-          "p1": "Der Nutzung veröffentlichter Kontaktdaten zur Übersendung nicht ausdrücklich angeforderter Werbung wird hiermit widersprochen."
+          "title": "9. Objection to Advertising Emails",
+          "p1": "The use of published contact data for sending unsolicited advertising is hereby prohibited."
         }
       }
     },
@@ -535,6 +541,14 @@
       "p": "Recommended price:",
       "link": "View product"
     }
+  },
+  "CookieBanner": {
+    "title": "Cookies & Privacy",
+    "description": "We use cookies for analytics and marketing to improve the website. You can consent or accept only essential cookies.",
+    "essentialNote": "Essential technical cookies (e.g., Cloudflare for security and performance) are always active.",
+    "privacyLink": "More details in the privacy policy",
+    "acceptEssential": "Essential only",
+    "acceptAll": "Accept all"
   },
   "NotFound": {
     "title": "Page not found.",

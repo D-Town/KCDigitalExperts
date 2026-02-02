@@ -2,6 +2,7 @@ import { ReactNode } from 'react';
 
 import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
+import Script from "next/script";
 import "./../globals.css";
 import { routing } from '@/i18n/routing';
 import { getMessages } from 'next-intl/server';
@@ -9,6 +10,7 @@ import { notFound } from 'next/navigation';
 import { Footer } from "../../components/navigation/Footer";
 import { Header } from "../../components/navigation/Header";
 import { NextIntlClientProvider } from "next-intl";
+import CookieConsentBanner from "../../components/CookieConsentBanner";
 
 type Props = {
   children: ReactNode;
@@ -48,18 +50,56 @@ export default async function LocaleLayout({
   }
 
   const messages = await getMessages();
+  const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
 
   return (
     <html lang={locale}>
       <body className={`${inter.variable} ${poppins.variable} antialiased`}>
+        {gtmId ? (
+          <Script id="gtm-consent-default" strategy="beforeInteractive">
+            {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{
+  ad_storage:'denied',
+  analytics_storage:'denied',
+  ad_user_data:'denied',
+  ad_personalization:'denied',
+  functionality_storage:'granted',
+  security_storage:'granted'
+});
+gtag('set','ads_data_redaction',true);
+gtag('set','url_passthrough',true);`}
+          </Script>
+        ) : null}
+        {gtmId ? (
+          <Script
+            id="gtm-loader"
+            strategy="afterInteractive"
+          >{`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','${gtmId}');`}</Script>
+        ) : null}
         <NextIntlClientProvider messages={messages}>
           <div className="flex flex-col min-h-screen dark-mode-transition">
+            {gtmId ? (
+              <noscript>
+                <iframe
+                  src={`https://www.googletagmanager.com/ns.html?id=${gtmId}`}
+                  height="0"
+                  width="0"
+                  style={{ display: "none", visibility: "hidden" }}
+                />
+              </noscript>
+            ) : null}
             <Header />
             <main>
               {children}
             </main>
             <Footer />
           </div>
+          <CookieConsentBanner />
         </NextIntlClientProvider>
       </body>
     </html>

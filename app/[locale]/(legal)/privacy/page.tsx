@@ -89,6 +89,13 @@ const Privacy = () => {
         <section className="legal-section" aria-labelledby="analytics">
           <h2 id="analytics">{t('sections.analytics.title')}</h2>
           <p>{t('sections.analytics.p1')}</p>
+          <p>{t('sections.analytics.p2')}</p>
+        </section>
+
+        <section className="legal-section" aria-labelledby="recaptcha">
+          <h2 id="recaptcha">{t('sections.recaptcha.title')}</h2>
+          <p>{t('sections.recaptcha.p1')}</p>
+          <p>{t('sections.recaptcha.p2')}</p>
         </section>
 
         <section className="legal-section" aria-labelledby="objection">
