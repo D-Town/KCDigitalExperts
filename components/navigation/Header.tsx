@@ -36,9 +36,10 @@ export const Header = () => {
                 {t("nav.products")}
               </summary>
               <div className="nav-dropdown">
-                <Link href="/produkte/mrr" className="nav-link">{t("nav.productItems.mrr")}</Link>
-                <Link href="/produkte/affiliate" className="nav-link">{t("nav.productItems.affiliate")}</Link>
-                <Link href="/produkte/sonstige" className="nav-link">{t("nav.productItems.other")}</Link>
+                <Link href="/shop" className="nav-link">{t("nav.productItems.all")}</Link>
+                <Link href="/shop#mrr" className="nav-link">{t("nav.productItems.mrr")}</Link>
+                <Link href="/shop#affiliate" className="nav-link">{t("nav.productItems.affiliate")}</Link>
+                {/* <Link href="/shop#sonstige" className="nav-link">{t("nav.productItems.other")}</Link> */}
               </div>
             </details>
             <Link href="/aboutUs" className="nav-link">{t("nav.about")}</Link>
@@ -74,9 +75,10 @@ export const Header = () => {
                 {t("nav.products")}
               </summary>
               <div className="space-y-1 px-3 pb-2">
-                <Link href="/produkte/mrr" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.mrr")}</Link>
-                <Link href="/produkte/affiliate" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.affiliate")}</Link>
-                <Link href="/produkte/sonstige" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.other")}</Link>
+                <Link href="/shop" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.all")}</Link>
+                <Link href="/shop#mrr" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.mrr")}</Link>
+                <Link href="/shop#affiliate" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.affiliate")}</Link>
+                {/* <Link href="/produkte/shop#sonstige" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.other")}</Link> */}
               </div>
             </details>
             <Link href="/aboutUs" className="nav-link block rounded-xl px-3 py-2" role="menuitem">{t("about")}</Link>

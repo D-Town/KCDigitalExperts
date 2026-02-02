@@ -8,6 +8,7 @@
     "nav": {
       "products": "Produkte",
       "productItems": {
+        "all": "Alle Produkte",
         "mrr": "MRR-Produkte",
         "affiliate": "Affiliate-Produkte",
         "other": "Sonstige"
@@ -57,7 +58,7 @@
     }
   },
   "AboutUs": {
-    "title":"Über uns",
+    "title": "Über uns",
     "whoIs": {
       "title": "Wir sind Katja und Christian, die Köpfe hinter KC Digital Experts.",
       "p1": "Wir haben selbst bei null angefangen und wissen genau, wie verwirrend der Einstieg ins digitale Business sein kann.",
@@ -477,5 +478,68 @@
         }
       }
     }
+  },
+  "Shop": {
+    "mainPage": {
+      "main": {
+        "p0": "Digitale Produkte • Klarer Nutzen • Direkt umsetzbar",
+        "title": "Das richtige Produkt ist oft der entscheidende Hebel.",
+        "p1": "Hier findest du ausgewählte digitale Produkte, mit denen du Wissen aufbaust, ins Umsetzen kommst und dein Business Schritt für Schritt weiterentwickelst.",
+        "link1": "Produkte ansehen",
+        "link2": "Fragen klären",
+        "div": {
+          "p1": "Produkte gesamt",
+          "p2": "MRR Produkte",
+          "p3": "Affiliate Produkte",
+          "p4": "Für Menschen, die Wissen nutzen wollen, um sich zusätzliche Einnahmequellen aufzubauen."
+        }
+      },
+      "context": {
+        "title": "Warum diese Auswahl?",
+        "p1": "Viele digitale Produkte versprechen viel, sind aber unklar aufgebaut oder bleiben theoretisch.<br></br>Das führt zu Unsicherheit, Überforderung und am Ende dazu, dass nichts umgesetzt wird.",
+        "p2": "Diese Übersicht soll dir helfen, schneller zu verstehen, welches Produkt zu dir passt – ohne endlose Recherche und ohne Marketing-Gelaber."
+      },
+      "solution": {
+        "title": "Unser Ansatz",
+        "p1": "Jedes Produkt in dieser Übersicht wurde so ausgewählt, dass du nicht nur konsumierst, sondern ins Tun kommst.<br></br>Klar strukturiert, praxisnah und ohne unnötigen Ballast.",
+        "div": {
+          "p1": "Klarheit",
+          "p2": "Du verstehst schnell, worum es geht und für wen das Produkt geeignet ist",
+          "p3": "Umsetzung",
+          "p4": "Schritt-für-Schritt-Inhalte statt reiner Theorie",
+          "p5": "Perspektive",
+          "p6": "Wissen, das du für dein eigenes Business nutzen kannst"
+        }
+      },
+      "products": {
+        "mrr": {
+          "h3": "MRR Produkte",
+          "p1": "Producte",
+          "p2": "Diese Produkte kaufst du, arbeitest sie durch und eignest dir konkretes Wissen an, das du direkt umsetzen kannst. Zusätzlich erhältst du bei diesen Produkten das Recht, sie weiterzuverkaufen und dabei 100 % des Erlöses zu behalten.",
+          "fallback": "Aktuell sind keine MRR Produkte verfügbar."
+        },
+        "affiliate": {
+          "h3": "Affiliate Produkte",
+          "p1": "Producte",
+          "p2": "Diese Produkte helfen dir dabei, Fähigkeiten aufzubauen und direkt in die Umsetzung zu kommen. Wenn du eines dieser Produkte über unsere Seite kaufst, erhalten wir eine Provision vom Anbieter. Für dich entstehen dadurch keine zusätzlichen Kosten.",
+          "fallback": "Aktuell sind keine Affiliate Produkte verfügbar."
+        }
+      },
+      "story": {
+        "title": "Kurz zu uns",
+        "p1": "KC Digital Experts steht für ehrliche Empfehlungen, klare Strukturen und Produkte, die in der Praxis funktionieren.<br></br>Wir zeigen nicht den schnellen Traum, sondern realistische Wege.",
+        "p2": "Am Ende entscheidest du selbst, welches Produkt zu dir passt. Diese Seite soll dir dabei helfen, den Überblick zu behalten – nicht dich zu überreden."
+      }
+    },
+    "productCard": {
+      "p": "Empfohlener Preis:",
+      "link": "Jetzt kaufen"
+    }
+  },
+  "NotFound": {
+    "title": "Diese Seite wurde nicht gefunden.",
+    "p": "Der Link ist möglicherweise falsch oder die Seite ist nicht mehr verfügbar.",
+    "button1": "Zum Shop",
+    "button2": "Support kontaktieren"
   }
 }

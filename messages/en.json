@@ -8,6 +8,7 @@
     "nav": {
       "products": "Products",
       "productItems": {
+        "all": "All products",
         "mrr": "MRR Products",
         "affiliate": "Affiliate Products",
         "other": "Other"
@@ -477,5 +478,68 @@
         }
       }
     }
+  },
+  "Shop": {
+    "mainPage": {
+      "main": {
+        "p0": "Digital products • Clear value • Ready to use",
+        "title": "The right product often makes the real difference.",
+        "p1": "Here you’ll find carefully selected digital products designed to help you build skills, take action, and grow your business step by step.",
+        "link1": "View products",
+        "link2": "Ask a question",
+        "div": {
+          "p1": "Total products",
+          "p2": "MRR products",
+          "p3": "Affiliate products",
+          "p4": "For people who want to turn knowledge into additional income streams."
+        }
+      },
+      "context": {
+        "title": "Why this selection?",
+        "p1": "Many digital products promise a lot but are poorly structured or stay purely theoretical.<br></br>This often leads to confusion, frustration, and no real implementation.",
+        "p2": "This overview is meant to help you understand more quickly which product fits your situation – without endless research or marketing noise."
+      },
+      "solution": {
+        "title": "Our approach",
+        "p1": "Every product listed here is selected with one goal in mind: helping you take action.<br></br>Clear structure, practical content, and no unnecessary complexity.",
+        "div": {
+          "p1": "Clarity",
+          "p2": "You quickly understand what the product is about and who it’s for",
+          "p3": "Action",
+          "p4": "Step-by-step guidance instead of pure theory",
+          "p5": "Perspective",
+          "p6": "Knowledge you can actually use for your own business"
+        }
+      },
+      "products": {
+        "mrr": {
+          "h3": "MRR products",
+          "p1": "products",
+          "p2": "You purchase these products, work through the content, and gain practical knowledge you can apply immediately. In addition, these products come with resale rights, allowing you to sell them yourself and keep 100% of the revenue.",
+          "fallback": "There are currently no MRR products available."
+        },
+        "affiliate": {
+          "h3": "Affiliate products",
+          "p1": "products",
+          "p2": "These products help you build skills and move directly into action. If you purchase one of these products through our website, we receive a commission from the provider. There are no additional costs for you.",
+          "fallback": "There are currently no affiliate products available."
+        }
+      },
+      "story": {
+        "title": "About us",
+        "p1": "KC Digital Experts stands for honest recommendations, clear structures, and products that work in real life.<br></br>We don’t sell hype, we focus on realistic paths.",
+        "p2": "In the end, the decision is yours. This page is meant to give you orientation – not pressure you into buying."
+      }
+    },
+    "productCard": {
+      "p": "Recommended price:",
+      "link": "View product"
+    }
+  },
+  "NotFound": {
+    "title": "Page not found.",
+    "p": "The link is wrong or maybe not available anymore",
+    "button1": "Shop",
+    "button2": "contact Support"
   }
 }

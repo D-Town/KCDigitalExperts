@@ -183,6 +183,12 @@
     outline: 3px solid var(--color-focus);
     outline-offset: 2px;
   }
+
+  .kc-divider {
+    border: 0;
+    border-top: 1px solid var(--border);
+    margin: 16px 0;
+  }
 }
 
 @layer components {
@@ -248,11 +254,11 @@
     z-index: 60;
   }
 
-  details > summary::-webkit-details-marker {
+  details>summary::-webkit-details-marker {
     display: none;
   }
 
-  details > summary::marker {
+  details>summary::marker {
     content: "";
   }
 
@@ -413,9 +419,9 @@
     padding-left: 1.25rem;
   }
 
-  .legal-content li + li,
-  .legal__list li + li,
-  .legal__bullets li + li {
+  .legal-content li+li,
+  .legal__list li+li,
+  .legal__bullets li+li {
     margin-top: 0.5rem;
   }
 
@@ -423,6 +429,12 @@
   .legal__address {
     color: var(--color-text-muted);
     font-style: normal;
+  }
+
+  .kc-divider {
+    border: 0;
+    border-top: 1px solid #E5E7EB;
+    margin: 16px 0;
   }
 }
 
@@ -452,4 +464,6 @@
   .kc-card {
     padding: 2rem;
   }
+
+  
 }
