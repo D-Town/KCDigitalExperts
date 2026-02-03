@@ -6,7 +6,7 @@ const Terms = () => {
   const withdrawalBullets = t.raw('sections.withdrawal.bullets') as string[];
 
   return (
-    <main className="kc-wrap" role="main" aria-labelledby="page-title">
+    <main id="main-content" tabIndex={-1} className="kc-wrap" role="main" aria-labelledby="page-title">
 
       <div className="container-custom py-12 space-y-12">
         <section className="legal-section">

@@ -95,7 +95,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="container-custom py-12 space-y-12">
+    <main id="main-content" tabIndex={-1} className="container-custom py-12 space-y-12">
       {siteKey ? (
         <Script src={`https://www.google.com/recaptcha/api.js?render=${siteKey}`} />
       ) : null}
@@ -172,7 +172,7 @@ const Contact = () => {
           </button>
         </form>
       </section>
-    </div>
+    </main>
   );
 }
 

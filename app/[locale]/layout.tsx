@@ -94,9 +94,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </noscript>
             ) : null}
             <Header />
-            <main>
-              {children}
-            </main>
+            {children}
             <Footer />
           </div>
           <CookieConsentBanner />

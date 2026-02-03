@@ -8,7 +8,7 @@ const Home = () => {
   const whyBullets = t.raw('why.bullets') as string[];
   const headerTitle = t.rich('hero.title', { br: () => <br /> }) as string
   return (
-    <>
+    <main id="main-content" tabIndex={-1}>
       <HeroSection
         src='/img/energy-1280x768.png'
         alt='Dynamisches digitales Wellenmuster als Symbol für moderne IT-Lösungen von KC Digital Experts'
@@ -71,7 +71,7 @@ const Home = () => {
         </section>
         <br />
       </div>
-    </>
+    </main>
   );
 }
 
