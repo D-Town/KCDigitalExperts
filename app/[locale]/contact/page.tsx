@@ -96,13 +96,15 @@ const Contact = () => {
   };
 
   return (
-    <main id="main-content" tabIndex={-1} className="container-custom py-12 space-y-12" aria-labelledby="page-title">
-      {siteKey ? (
-        <Script src={`https://www.google.com/recaptcha/api.js?render=${siteKey}`} />
-      ) : null}
-      <section className="card max-w-2xl mx-auto">
-        <h1 id="page-title" className="h2 mb-2">{t('title')}</h1>
-        <p className="text-muted mb-6">{t('intro')}</p>
+    <main tabIndex={-1} aria-labelledby="page-title">
+      <div id="main-content" className="main-content">
+        <div className="container-custom py-12 space-y-12">
+          {siteKey ? (
+            <Script src={`https://www.google.com/recaptcha/api.js?render=${siteKey}`} />
+          ) : null}
+          <section className="card max-w-2xl mx-auto">
+            <h1 id="page-title" className="h2 mb-2">{t('title')}</h1>
+            <p className="text-muted mb-6">{t('intro')}</p>
 
         {status === 'success' ? (
           <div className="alert alert--success" role="status" aria-live="polite">
@@ -171,8 +173,10 @@ const Contact = () => {
           <button type="submit" className="btn-primary w-full" disabled={isDisabled}>
             {status === 'submitting' ? t('form.submitPending') : t('form.submit')}
           </button>
-        </form>
-      </section>
+            </form>
+          </section>
+        </div>
+      </div>
     </main>
   );
 }

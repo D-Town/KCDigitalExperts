@@ -14,7 +14,9 @@ export default async function ShopPage() {
   const affiliateCount = affiliateProducts.length;
 
   return (
-    <main id="main-content" tabIndex={-1} className="container-custom py-12 space-y-16">
+    <main tabIndex={-1}>
+      <div id="main-content" className="main-content">
+        <div className="container-custom py-12 space-y-16">
       <section className="kc-card dark-mode-transition">
         <div className="grid gap-8 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
           <div className="space-y-6">
@@ -169,6 +171,8 @@ export default async function ShopPage() {
           </Link>
         </div>
       </section> */}
+        </div>
+      </div>
     </main>
   );
 }

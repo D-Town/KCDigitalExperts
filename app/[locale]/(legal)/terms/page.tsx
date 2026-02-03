@@ -6,9 +6,9 @@ const Terms = () => {
   const withdrawalBullets = t.raw('sections.withdrawal.bullets') as string[];
 
   return (
-    <main id="main-content" tabIndex={-1} className="kc-wrap" role="main" aria-labelledby="page-title">
-
-      <div className="container-custom py-12 space-y-12">
+    <main tabIndex={-1} role="main" aria-labelledby="page-title">
+      <div id="main-content" className="main-content">
+        <div className="container-custom py-12 space-y-12">
         <section className="legal-section">
           <h1 id="page-title">{t('title')}</h1>
           <p><strong>{t('subtitle')}</strong></p>
@@ -163,8 +163,8 @@ const Terms = () => {
           </p>
           <p>{t('sections.dispute.p2')}</p>
         </section>
+        </div>
       </div>
-
     </main>
   );
 }

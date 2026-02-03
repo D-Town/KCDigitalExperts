@@ -26,7 +26,9 @@ const ThankYou = async ({
   }
 
   return (
-    <main id="main-content" tabIndex={-1} className="container-custom py-12 space-y-12" role="main" aria-labelledby="page-title">
+    <main tabIndex={-1} role="main" aria-labelledby="page-title">
+      <div id="main-content" className="main-content">
+        <div className="container-custom py-12 space-y-12">
       <section className="kc-card dark-mode-transition space-y-6">
         <div className="space-y-3">
           <p className="text-body-sm text-muted">Bestätigung & Zugriff</p>
@@ -117,6 +119,8 @@ const ThankYou = async ({
           </p>
         </div>
       </section>
+        </div>
+      </div>
     </main>
   )
 }
