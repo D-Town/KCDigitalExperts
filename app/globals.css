@@ -438,7 +438,7 @@
   }
 }
 
-#main-content {
+.main-content {
   padding: 1.25rem clamp(1rem, 6vw, 15vw);
 }
 

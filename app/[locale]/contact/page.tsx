@@ -53,9 +53,10 @@ const Contact = () => {
 
     setError('');
     setStatus('submitting');
+    const form = event.currentTarget;
 
     try {
-      const formData = new FormData(event.currentTarget);
+      const formData = new FormData(form);
       const name = String(formData.get('name') || '').trim();
       const email = String(formData.get('email') || '').trim();
       const message = String(formData.get('message') || '').trim();
@@ -85,7 +86,7 @@ const Contact = () => {
         throw new Error(mapped || t('errors.default'));
       }
 
-      event.currentTarget.reset();
+      form.reset();
       setMessageLength(0);
       setStatus('success');
     } catch (err) {
@@ -95,23 +96,25 @@ const Contact = () => {
   };
 
   return (
-    <div className="container-custom py-12 space-y-12">
-      {siteKey ? (
-        <Script src={`https://www.google.com/recaptcha/api.js?render=${siteKey}`} />
-      ) : null}
-      <section className="card max-w-2xl mx-auto">
-        <h2 className="h2 mb-2">{t('title')}</h2>
-        <p className="text-muted mb-6">{t('intro')}</p>
+    <main tabIndex={-1} aria-labelledby="page-title">
+      <div id="main-content" className="main-content">
+        <div className="container-custom py-12 space-y-12">
+          {siteKey ? (
+            <Script src={`https://www.google.com/recaptcha/api.js?render=${siteKey}`} />
+          ) : null}
+          <section className="card max-w-2xl mx-auto">
+            <h1 id="page-title" className="h2 mb-2">{t('title')}</h1>
+            <p className="text-muted mb-6">{t('intro')}</p>
 
         {status === 'success' ? (
-          <div className="alert alert--success">
+          <div className="alert alert--success" role="status" aria-live="polite">
             <div className="alert__title">{t('success.title')}</div>
             <span>{t('success.message')}</span>
           </div>
         ) : null}
 
         {status === 'error' ? (
-          <div className="alert alert--error">
+          <div className="alert alert--error" role="alert" aria-live="assertive">
             <div className="alert__title">{t('errors.default')}</div>
             <span>{error}</span>
           </div>
@@ -170,9 +173,11 @@ const Contact = () => {
           <button type="submit" className="btn-primary w-full" disabled={isDisabled}>
             {status === 'submitting' ? t('form.submitPending') : t('form.submit')}
           </button>
-        </form>
-      </section>
-    </div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </main>
   );
 }
 
