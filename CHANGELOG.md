@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/D-Town/ClientContent/compare/v1.7.0...v1.8.0) (2026-02-03)
+
+
+### Features
+
+* cookiebanner and tracking ([6f58f13](https://github.com/D-Town/ClientContent/commit/6f58f13cc6b0de2e362c135d95eeb87409cd644f))
+
 ## [1.7.0](https://github.com/D-Town/ClientContent/compare/v1.6.0...v1.7.0) (2026-02-02)
 
 
