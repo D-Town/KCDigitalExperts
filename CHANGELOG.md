@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.9.0](https://github.com/D-Town/ClientContent/compare/v1.8.0...v1.9.0) (2026-02-03)
+
+
+### Features
+
+* change site name ([8d02a2d](https://github.com/D-Town/ClientContent/commit/8d02a2d945f1ef31e7f74a9941a271885ce08739))
+* downgrade nextjs ([e2baa7a](https://github.com/D-Town/ClientContent/commit/e2baa7a315aacb47bedc1f877faa056fb1d4ce7c))
+
+
+### Bug Fixes
+
+* email sending ([b535a14](https://github.com/D-Town/ClientContent/commit/b535a1457a2e86efadc1f584654d02dd29a5db3f))
+
 ## [1.8.0](https://github.com/D-Town/ClientContent/compare/v1.7.0...v1.8.0) (2026-02-03)
 
 
