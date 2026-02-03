@@ -24,7 +24,7 @@ const AboutUs = () => {
 
             {/* Visual / Mock */}
             <div className="relative">
-              <Image src="/img/kate-and-chris-transparent.png" width={506} height={506} alt="" />
+              <Image src="/img/kate-and-chris-transparent.png" width={506} height={506} alt="Eine bild was Symbolisch eien Handgeschriebene Unterschrift darstellen soll. Dabei ist das K und das C in Gold gehalten und der rest in Weiss oder Schwarz je nach Farbgebung vom Theme" />
             </div>
           </div>
         </section>

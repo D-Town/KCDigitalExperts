@@ -438,10 +438,6 @@
   }
 }
 
-#main-content {
-  padding: 1.25rem clamp(1rem, 6vw, 15vw);
-}
-
 @media (min-width: 640px) {
   .container-custom {
     padding: 0 1.5rem;

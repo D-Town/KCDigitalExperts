@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 
@@ -53,6 +53,7 @@ const updateConsentMode = (analytics: boolean, ads: boolean) => {
 export default function CookieConsentBanner() {
   const [visible, setVisible] = useState(false);
   const t = useTranslations("CookieBanner");
+  const essentialButtonRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     const saved = readConsent();
@@ -63,7 +64,9 @@ export default function CookieConsentBanner() {
 
     const gpcEnabled =
       typeof navigator !== "undefined" &&
-      (navigator.globalPrivacyControl || navigator.doNotTrack === "1");
+      ("globalPrivacyControl" in navigator
+        ? (navigator as Navigator & { globalPrivacyControl?: boolean }).globalPrivacyControl
+        : navigator.doNotTrack === "1");
 
     if (gpcEnabled) {
       const denied = { analytics: false, ads: false, ts: Date.now() };
@@ -74,6 +77,12 @@ export default function CookieConsentBanner() {
 
     setVisible(true);
   }, []);
+
+  useEffect(() => {
+    if (visible) {
+      requestAnimationFrame(() => essentialButtonRef.current?.focus());
+    }
+  }, [visible]);
 
   const acceptAll = () => {
     const state = { analytics: true, ads: true, ts: Date.now() };
@@ -95,6 +104,7 @@ export default function CookieConsentBanner() {
     <div
       className="fixed inset-x-0 bottom-0 z-50 p-4"
       role="dialog"
+      aria-modal="true"
       aria-live="polite"
       aria-label="Cookie Hinweise"
     >
@@ -108,7 +118,7 @@ export default function CookieConsentBanner() {
           </Link>
         </div>
         <div className="flex flex-col gap-3 sm:flex-row sm:justify-end">
-          <button type="button" className="btn-ghost" onClick={acceptEssential}>
+          <button ref={essentialButtonRef} type="button" className="btn-ghost" onClick={acceptEssential}>
             {t("acceptEssential")}
           </button>
           <button type="button" className="btn-primary" onClick={acceptAll}>

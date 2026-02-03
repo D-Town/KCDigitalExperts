@@ -69,21 +69,21 @@ export const Header = () => {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div id="mobile-menu" className="md:hidden pb-6 pt-2 space-y-2" role="menu">
+          <div id="mobile-menu" className="md:hidden pb-6 pt-2 space-y-2">
             <details className="mobile-submenu">
-              <summary className="nav-link block rounded-xl px-3 py-2 list-none cursor-pointer" role="menuitem">
+              <summary className="nav-link block rounded-xl px-3 py-2 list-none cursor-pointer">
                 {t("nav.products")}
               </summary>
               <div className="space-y-1 px-3 pb-2">
-                <Link href="/shop" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.all")}</Link>
-                <Link href="/shop#mrr" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.mrr")}</Link>
-                <Link href="/shop#affiliate" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.affiliate")}</Link>
+                <Link href="/shop" className="nav-link block rounded-lg px-3 py-2">{t("nav.productItems.all")}</Link>
+                <Link href="/shop#mrr" className="nav-link block rounded-lg px-3 py-2">{t("nav.productItems.mrr")}</Link>
+                <Link href="/shop#affiliate" className="nav-link block rounded-lg px-3 py-2">{t("nav.productItems.affiliate")}</Link>
                 {/* <Link href="/produkte/shop#sonstige" className="nav-link block rounded-lg px-3 py-2" role="menuitem">{t("nav.productItems.other")}</Link> */}
               </div>
             </details>
-            <Link href="/aboutUs" className="nav-link block rounded-xl px-3 py-2" role="menuitem">{t("about")}</Link>
-            <Link href="/contact" className="nav-link block rounded-xl px-3 py-2" role="menuitem">{t("contact")}</Link>
-            <Link href="/login" className="btn-primary w-full mt-3" role="menuitem">{t("login")}</Link>
+            <Link href="/aboutUs" className="nav-link block rounded-xl px-3 py-2">{t("about")}</Link>
+            <Link href="/contact" className="nav-link block rounded-xl px-3 py-2">{t("contact")}</Link>
+            <Link href="/login" className="btn-primary w-full mt-3">{t("login")}</Link>
           </div>
         )}
       </nav>

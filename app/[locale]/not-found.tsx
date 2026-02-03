@@ -17,7 +17,7 @@ export default function NotFound() {
           </div>
 
           <div>
-            <Image src="/img/404.png" alt="" width={800} height={533}/>
+            <Image src="/img/404.png" alt="Ein trauriger Roboter ist ein teil aus 404 aus Steien die zerbrochen ausshen wo er die letzte 4 darstellt" width={800} height={533}/>
           </div>
 
           <div className="flex flex-col gap-4 sm:flex-row">

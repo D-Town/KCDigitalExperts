@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import Link from 'next/link';
 import HeroSection from '../../components/shared/HeroSection';
 
 
@@ -8,7 +9,7 @@ const Home = () => {
   const whyBullets = t.raw('why.bullets') as string[];
   const headerTitle = t.rich('hero.title', { br: () => <br /> }) as string
   return (
-    <main id="main-content" tabIndex={-1}>
+    <main tabIndex={-1}>
       <HeroSection
         src='/img/energy-1280x768.png'
         alt='Dynamisches digitales Wellenmuster als Symbol für moderne IT-Lösungen von KC Digital Experts'
@@ -32,7 +33,7 @@ const Home = () => {
           })}</p>
           <p>{t("hero.p4")}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="btn-primary">{t("hero.button")}</button>
+            <Link href="/contact" className="btn-primary">{t("hero.button")}</Link>
           </div>
         </section>
 
@@ -53,7 +54,7 @@ const Home = () => {
           <h2 className="h2">{t("consulting.title")}</h2>
           <p>{t("consulting.p1")}</p>
           <div>
-            <button className="btn-primary">{t("consulting.button")}</button>
+            <Link href="/contact" className="btn-primary">{t("consulting.button")}</Link>
           </div>
         </section>
         <br />

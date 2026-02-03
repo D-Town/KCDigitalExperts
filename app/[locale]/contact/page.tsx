@@ -95,23 +95,23 @@ const Contact = () => {
   };
 
   return (
-    <main id="main-content" tabIndex={-1} className="container-custom py-12 space-y-12">
+    <main id="main-content" tabIndex={-1} className="container-custom py-12 space-y-12" aria-labelledby="page-title">
       {siteKey ? (
         <Script src={`https://www.google.com/recaptcha/api.js?render=${siteKey}`} />
       ) : null}
       <section className="card max-w-2xl mx-auto">
-        <h2 className="h2 mb-2">{t('title')}</h2>
+        <h1 id="page-title" className="h2 mb-2">{t('title')}</h1>
         <p className="text-muted mb-6">{t('intro')}</p>
 
         {status === 'success' ? (
-          <div className="alert alert--success">
+          <div className="alert alert--success" role="status" aria-live="polite">
             <div className="alert__title">{t('success.title')}</div>
             <span>{t('success.message')}</span>
           </div>
         ) : null}
 
         {status === 'error' ? (
-          <div className="alert alert--error">
+          <div className="alert alert--error" role="alert" aria-live="assertive">
             <div className="alert__title">{t('errors.default')}</div>
             <span>{error}</span>
           </div>
