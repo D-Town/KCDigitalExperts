@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.0](https://github.com/D-Town/KCDigitalExperts/compare/v1.9.0...v1.10.0) (2026-02-04)
+
+
+### Features
+
+* rename project and csp settings ([8935845](https://github.com/D-Town/KCDigitalExperts/commit/8935845fe595825aead2c0a28384637eecd16312))
+
 ## [1.9.0](https://github.com/D-Town/ClientContent/compare/v1.8.0...v1.9.0) (2026-02-03)
 
 
