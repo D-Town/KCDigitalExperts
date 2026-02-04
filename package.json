@@ -7,8 +7,10 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "opennextjs-cloudflare build",
+    "build:next": "next build",
     "start": "next start",
+    "preview": "opennextjs-cloudflare preview",
     "worker": "npm ci && npm run build && npm run preview",
     "opennext:build": "opennextjs-cloudflare build",
     "opennext:preview": "opennextjs-cloudflare preview",

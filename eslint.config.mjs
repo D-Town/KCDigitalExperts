@@ -4,8 +4,8 @@ import coreWebVitals from "eslint-config-next/core-web-vitals.js";
 
 
 const eslintConfig = defineConfig([
-  ...coreWebVitals,
-  ...typescript,
+  coreWebVitals,
+  typescript,
   // Override default ignores of eslint-config-next.
   globalIgnores([
     // Default ignores of eslint-config-next:
