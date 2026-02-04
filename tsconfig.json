@@ -1,4 +1,8 @@
 {
+  "ignores": [
+    "**/.worker/**",
+    "**/.open-next/**"
+  ],
   "compilerOptions": {
     "target": "ES2017",
     "lib": [

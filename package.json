@@ -10,7 +10,8 @@
     "build": "next build",
     "start": "next start",
     "worker": "npm ci && npm run build && npm run preview",
-    "preview": "opennextjs-cloudflare",
+    "opennext:build": "opennextjs-cloudflare build",
+    "opennext:preview": "opennextjs-cloudflare preview",
     "deploy": "wrangler deploy",
     "lint": "eslint"
   },
