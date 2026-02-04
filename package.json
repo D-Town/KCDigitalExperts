@@ -9,6 +9,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "worker": "npm run build && npm run preview",
+    "preview": "opennextjs-cloudflare",
+    "deploy": "wrangler deploy",
     "lint": "eslint"
   },
   "dependencies": {
@@ -23,6 +26,7 @@
     "react-dom": "19.2.3"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "1.16.2",
     "@tailwindcss/postcss": "4",
     "@tailwindcss/typography": "0.5.19",
     "@types/node": "20.19.29",
