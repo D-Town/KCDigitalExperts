@@ -8,7 +8,7 @@ const setSecurityHeaders = (response: NextResponse) => {
 
   const isDev = process.env.NODE_ENV !== 'production';
   const scriptUnsafeEval = isDev ? " 'unsafe-eval'" : "";
-  const csp = [
+  const cspParts = [
     "default-src 'self'",
     "base-uri 'self'",
     "form-action 'self'",
@@ -21,8 +21,13 @@ const setSecurityHeaders = (response: NextResponse) => {
     "connect-src 'self' https://www.google-analytics.com https://stats.g.doubleclick.net https://www.googletagmanager.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/",
     "frame-src https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/",
     "font-src 'self' data:",
-    "upgrade-insecure-requests",
-  ].join('; ');
+  ];
+
+  if (isProd) {
+    cspParts.push("upgrade-insecure-requests");
+  }
+
+  const csp = cspParts.join('; ');
 
   response.headers.set('Content-Security-Policy', csp);
   response.headers.set('Referrer-Policy', 'strict-origin-when-cross-origin');
