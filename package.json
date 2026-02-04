@@ -2,6 +2,9 @@
   "name": "kcdigitalexperts",
   "version": "1.10.0",
   "private": true,
+  "engines": {
+    "node": ">=20 <21"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -29,6 +32,7 @@
     "eslint": "9",
     "eslint-config-next": "15.5.7",
     "tailwindcss": "4",
-    "typescript": "5"
+    "typescript": "5",
+    "wrangler": "4.62.0"
   }
 }
