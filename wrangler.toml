@@ -1,5 +1,6 @@
 name = "kcdigitalexperts"
 compatibility_date = "2026-02-04"
+compatibility_flags = ["nodejs_compat"]
 
 main = ".open-next/worker.js"
 

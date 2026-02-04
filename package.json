@@ -1,6 +1,6 @@
 {
   "name": "kcdigitalexperts",
-  "version": "1.11.1",
+  "version": "1.11.3",
   "private": true,
   "engines": {
     "node": ">=20 <21"
