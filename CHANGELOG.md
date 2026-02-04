@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.11.1](https://github.com/D-Town/KCDigitalExperts/compare/v1.11.0...v1.11.1) (2026-02-04)
+
+
+### Bug Fixes
+
+* cloudflare stuff ([5fd4def](https://github.com/D-Town/KCDigitalExperts/commit/5fd4def1f877013b2f969d110b3a706f8fd3a903))
+* hope the last one ([5541ab1](https://github.com/D-Town/KCDigitalExperts/commit/5541ab18ef0a289f7c305ecd73b6b0ab2d5be3a1))
+* issues with next ([6e7b32e](https://github.com/D-Town/KCDigitalExperts/commit/6e7b32ed981efb93d16b581e17497f9dd810e54e))
+* worker config ([911f044](https://github.com/D-Town/KCDigitalExperts/commit/911f044a1a4bfdd5514fdd77cfa3f8463f855220))
+
 ## [1.11.0](https://github.com/D-Town/KCDigitalExperts/compare/v1.10.0...v1.11.0) (2026-02-04)
 
 
