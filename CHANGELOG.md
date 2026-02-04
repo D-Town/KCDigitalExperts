@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.11.2](https://github.com/D-Town/KCDigitalExperts/compare/v1.11.1...v1.11.2) (2026-02-04)
+
+
+### Bug Fixes
+
+* build loop ([5d4bae1](https://github.com/D-Town/KCDigitalExperts/commit/5d4bae14c2a9a6b9c9516969455578fadceaa945))
+* no image ([5f56fe7](https://github.com/D-Town/KCDigitalExperts/commit/5f56fe796ea161c62cdd64715f5975d4edc73b5b))
+* wrangler ([a1198ab](https://github.com/D-Town/KCDigitalExperts/commit/a1198ab499bd4f7b21e50622265ca0ba0172f511))
+
 ## [1.11.3](https://github.com/D-Town/KCDigitalExperts/compare/v1.11.2...v1.11.3) (2026-02-04)
 
 
