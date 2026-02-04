@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.0](https://github.com/D-Town/KCDigitalExperts/compare/v1.10.0...v1.11.0) (2026-02-04)
+
+
+### Features
+
+* add cloudflare settings ([1e4f9dd](https://github.com/D-Town/KCDigitalExperts/commit/1e4f9dd28552ff02c0f271102deaf065e2a5cec9))
+
 ## [1.10.0](https://github.com/D-Town/KCDigitalExperts/compare/v1.9.0...v1.10.0) (2026-02-04)
 
 
